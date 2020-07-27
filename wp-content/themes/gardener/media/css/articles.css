@@ -1,0 +1,93 @@
+article.tempo-article.grid div.tempo-content h3.tempo-title {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+article.tempo-article.grid div.tempo-content h3.tempo-title:before {
+  background: transparent;
+  width: 0px;
+  height: 1px;
+  bottom: -1px;
+}
+article.tempo-article.grid div.tempo-content h3.tempo-title:hover a {
+  color: #26ad60;
+}
+article.tempo-article.grid div.tempo-content h3.tempo-title:hover a:before,
+article.tempo-article.grid div.tempo-content h3.tempo-title:hover a:after {
+  display: none;
+}
+article.tempo-article.grid div.tempo-content h3.tempo-title:hover a:hover:before,
+article.tempo-article.grid div.tempo-content h3.tempo-title:hover a:hover:after {
+  display: none;
+}
+article.tempo-article.grid div.tempo-content h3.tempo-title:hover:before {
+  background: rgba(58, 64, 67, 0.8);
+  width: 35%;
+}
+article.tempo-article.portfolio div.tempo-content h3.tempo-title {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+article.tempo-article.portfolio div.tempo-content h3.tempo-title:before {
+  background: transparent;
+  width: 0px;
+  height: 1px;
+  bottom: -1px;
+}
+article.tempo-article.portfolio div.tempo-content h3.tempo-title:hover:before {
+  background: #26ad60;
+  width: 35%;
+}
+article.tempo-article.portfolio div.tempo-content h3.tempo-title a:before,
+article.tempo-article.portfolio div.tempo-content h3.tempo-title a:after {
+  display: none;
+}
+article.tempo-article.portfolio div.tempo-content h3.tempo-title a:hover:before,
+article.tempo-article.portfolio div.tempo-content h3.tempo-title a:hover:after {
+  display: none;
+}
+@media (min-width: 1200px) {
+  div.col-sm-6 article.tempo-article.grid div.tempo-categories a,
+  div.col-lg-4 article.tempo-article.grid div.tempo-categories a {
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 24px;
+    margin: 0px;
+    padding: 3px 15px;
+  }
+  div.col-sm-6 article.tempo-article.grid div.tempo-categories ul li a,
+  div.col-lg-4 article.tempo-article.grid div.tempo-categories ul li a {
+    padding: 8px 15px;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  div.col-sm-6 article.tempo-article.grid div.tempo-categories a,
+  div.col-lg-4 article.tempo-article.grid div.tempo-categories a {
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 24px;
+    margin: 0px;
+    padding: 3px 15px;
+  }
+  div.col-sm-6 article.tempo-article.grid div.tempo-categories ul li a,
+  div.col-lg-4 article.tempo-article.grid div.tempo-categories ul li a {
+    padding: 8px 15px;
+  }
+}
+@media (max-width: 780px) {
+  div.col-sm-6 article.tempo-article.grid div.tempo-categories a,
+  div.col-lg-4 article.tempo-article.grid div.tempo-categories a {
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 24px;
+    margin: 0px;
+    padding: 3px 15px;
+  }
+  div.col-sm-6 article.tempo-article.grid div.tempo-categories ul li a,
+  div.col-lg-4 article.tempo-article.grid div.tempo-categories ul li a {
+    padding: 8px 15px;
+  }
+}
+@media (max-width: 780px) {
+  article.tempo-article.grid div.tempo-categories,
+  article.tempo-article.portfolio div.tempo-categories {
+    display: inline-block;
+  }
+}

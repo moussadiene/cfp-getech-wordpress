@@ -1,0 +1,907 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gardener\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-14 07:09+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: woocommerce/single-product/price.php:183
+#, php-format
+msgid "%1$s Each"
+msgstr ""
+
+#: cfgs/pages/appearance/faq.php:6 templates/admin/appearance/faq/premium.php:1
+#: templates/admin/appearance/faq/premium.php:2
+#: templates/admin/appearance/faq/premium.php:17
+#: templates/admin/appearance/faq/premium.php:415
+#, php-format
+msgid "%1s - Upgrade %2s to Premium"
+msgstr ""
+
+#: widgets/gardener.post-meta.class.php:95
+#, php-format
+msgid "%1s view"
+msgid_plural "%1s views"
+msgstr[0] ""
+msgstr[1] ""
+
+#: cfgs/pages/customize/tempo.layout.php:29
+#, php-format
+msgid ""
+"%s: On the premium version, the content width for layout with sidebars is "
+"945 pixels."
+msgstr ""
+
+#: widgets/gardener.post-meta.class.php:81
+#, php-format
+msgctxt "..."
+msgid "%1s Comment"
+msgid_plural "%1s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/admin/appearance/faq/premium.php:369
+#: templates/admin/appearance/faq/premium.php:375
+#: templates/admin/appearance/faq/premium.php:381
+#: templates/admin/appearance/faq/premium.php:387
+msgid "1 - 5 ( you can customize number of columns )"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:380
+#: templates/admin/appearance/faq/premium.php:386
+msgid "4 columns"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:405
+msgid "4 Premium Solutions"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:403
+msgid "Access"
+msgstr ""
+
+#: cfgs/pages/appearance/faq.php:14
+#, php-format
+msgid ""
+"Activate premium features and get extended core functionality without the "
+"risk of loosing any data or settings %1s with our %2s that upgrades our "
+"Gardener WordPress theme."
+msgstr ""
+
+#: templates/admin/appearance/faq/customizer.php:22
+msgid "Additional"
+msgstr ""
+
+#: templates/admin/appearance/faq/customizer.php:48
+msgid "Additional CSS"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.header-tools.php:22
+msgid "Address first Line"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.header-tools.php:32
+msgid "Address second Line"
+msgstr ""
+
+#: templates/admin/appearance/faq/customizer.php:51
+msgid ""
+"All you have to do is play with them and view the live changes. Try and you "
+"will discover how easy it is to customize your own style."
+msgstr ""
+
+#: templates/admin/appearance/faq/customizer.php:2
+msgid "Appearance &rsaquo; Customize"
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:51
+msgid "Awaiting product image"
+msgstr ""
+
+#: templates/admin/appearance/faq/customizer.php:8
+msgid "Background Image"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:392
+msgid "Basic"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.layout.php:36
+msgid "Blog & Archives"
+msgstr ""
+
+#: templates/admin/appearance/faq/customizer.php:28
+msgid "Blog &amp; Archives"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:367
+msgid "Blog custom Header Sidebar"
+msgstr ""
+
+#: templates/admin/appearance/faq/customizer.php:23
+msgid "Breadcrumbs"
+msgstr ""
+
+#: woocommerce/single-product/price.php:170
+#, php-format
+msgid "buy %1$s"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:51
+#: templates/article/terms/categories.php:17
+#: templates/single/terms/categories.php:17
+#: templates/single/header/terms/categories.php:17
+msgid "Categories"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.menu.php:18
+msgid "Collapse Submenu"
+msgstr ""
+
+#: cfgs/pages/customize/colors.php:10
+#: templates/admin/appearance/faq/customizer.php:7
+msgid "Colors"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.header.php:134
+msgid "Contact Us"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.header.php:142
+msgid "Contact us for a custom work"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.header.php:91
+msgid "Contact us for a free quote"
+msgstr ""
+
+#: templates/admin/appearance/faq/customizer.php:40
+msgid "Copyright ( partial )"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:337
+msgid "Copyright full Control"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:79
+msgid "Custom breadcrumbs settings"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:55
+msgid "Custom Colors"
+msgstr ""
+
+#: templates/admin/appearance/faq/customizer.php:41
+msgid "Custom CSS ( with support for: IE, IE 10, IE 9 and IE 8 )"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:91
+msgid "Custom CSS Options ( special support: IE, IE8, IE9, IE10, IE11 )"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:43
+msgid "Custom Favicon"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:67
+msgid "Custom Header"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:127
+msgid "Custom Header for each Page ( one click setup )"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:121
+msgid "Custom Header for each Post ( one click setup )"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:73
+msgid "Custom Header Image"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:145
+msgid "Custom Header type Audio ( one click setup )"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:151
+msgid "Custom Header type Google Map ( one click setup )"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:103
+msgid "Custom Header type Portfolio ( default )"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:133
+msgid "Custom Header type Sample Image ( one click setup )"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:139
+msgid "Custom Header type Video ( one click setup )"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:115
+msgid "Custom Header Video"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:109
+msgid "Custom Header with Contact Form"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:163
+msgid "Custom Logo ( icon )"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:49
+msgid "Custom Logo ( sample )"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:283
+msgid "Custom Page Template"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:307
+msgid "Custom page template filter posts by categories"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:301
+msgid "Custom page template filter posts by tags"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:253
+msgid "Custom Sidebars builder"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:265
+msgid "Custom Sidebars for each Page"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:259
+msgid "Custom Sidebars for each Post"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:397
+msgid "Customizations"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.layout.php:37
+msgid ""
+"Default Layout is used for the next templates: Blog, Archives, Categories, "
+"Tags, Author and Search Results."
+msgstr ""
+
+#: cfgs/sidebars/cfgs.php:98
+msgid ""
+"Default Single Post Sidebar - is used by default for single post template."
+msgstr ""
+
+#: cfgs/pages/customize/tempo.header.php:87
+#: cfgs/pages/customize/tempo.header.php:138
+#: templates/admin/appearance/faq/customizer.php:17
+msgid "Description"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.header-tools.php:13
+msgid "Display Address"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.header.php:70
+msgid "Display First Button"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.header-tools.php:42
+msgid "Display Program"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.header.php:121
+msgid "Display Second Button"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:25
+msgid "Documentation"
+msgstr ""
+
+#: widgets/gardener.post-meta.class.php:64
+msgid "Edit"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.header-tools.php:14
+msgid "enable / disable address tools"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:217
+msgid "Enable / disable Aside Scrolling ( content sidebar )"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.header.php:71
+msgid "enable / disable first Button"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.header.php:105
+#: cfgs/pages/customize/tempo.header.php:155
+msgid "enable / disable link attribut target=\"_blank\""
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:229
+msgid "Enable / disable Link Underline Effect"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:235
+msgid "Enable / disable meta for Blog Posts"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:247
+msgid "Enable / disable meta for Single Page"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:241
+msgid "Enable / disable meta for Single Posts"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.header-tools.php:43
+msgid "enable / disable program tools"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:223
+msgid "Enable / disable scroll to Top Button"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.header.php:122
+msgid "enable / disable second Button"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.menu.php:19
+msgid "enable / disable submenu collapsing for mobile devices"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:9
+msgid "Features"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.header.php:65
+#: templates/admin/appearance/faq/customizer.php:18
+msgid "First Button"
+msgstr ""
+
+#: cfgs/pages/customize/colors.php:14
+msgid "First Color"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:349
+msgid "Footer Contact Info"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:343
+msgid "Footer custom Menu"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:373
+msgid "Footer dark Section custom Sidebar"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:385
+msgid "Footer light Section custom Sidebar"
+msgstr ""
+
+#: cfgs/sidebars/cfgs.php:124
+msgid "Footer Light Side"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:85
+msgid "Footer social Items"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.header.php:83
+msgid "Free Estimate"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.layout.php:68
+#: templates/admin/appearance/faq/customizer.php:29
+msgid "Front Page"
+msgstr ""
+
+#: cfgs/sidebars/cfgs.php:88
+msgid "Front Page - Default Sidebar"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:379
+msgid "Front Page custom Header Sidebar"
+msgstr ""
+
+#: cfgs/sidebars/cfgs.php:57
+msgid "Front Page Header"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.layout.php:9
+msgid "Front Page Sidebar"
+msgstr ""
+
+#: cfgs/sidebars/cfgs.php:89
+msgid "Front Page Sidebar - is used by default for Front Page template."
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:363
+msgid "FULL ( ~ 28 Custom Controlls )"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:417
+msgid "full compatible with current version"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.layout.php:48
+#: cfgs/pages/customize/tempo.layout.php:80
+#: cfgs/pages/customize/tempo.layout.php:112
+#: cfgs/pages/customize/tempo.layout.php:144
+msgid "Full Width"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:325
+msgid "Gallery style - Features"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:313
+msgid "Gallery style - Portfolio"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:319
+msgid "Gallery style - Services"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:331
+msgid "Gallery Style Story"
+msgstr ""
+
+#. Name of the theme
+#: templates/admin/appearance/faq/premium.php:10
+msgid "Gardener"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Gardener is an white, clean, elegant, modern, beautiful and creative free "
+"WordPress theme built with HTML5 and CSS3. The clean, modern design can be "
+"used for any type of website blog: business, corporate, portfolio, products, "
+"creative, arts, design, construction, transport, manufacturing, ecology, "
+"cosmetics, beauty, hygiene, sports, culture, presentations, food business, "
+"restaurants, drink, bar, pub, club, radio, tv, television, music, movies, "
+"live style, gardener, cuisine, chemical, pharmaceutical, medicine, travel, "
+"sample blog, agriculture, science, politics and more others. Theme comes "
+"with nice flat design concept and responsive layout. This theme is suitable "
+"for all type of devices: desktop, notebook, iPhone, tablete and others. "
+"Responsive design and grid system is based on twitter bootstrap framework. "
+"Theme is developed by myThem.es and it comes with nice header parallax "
+"effect. We carefully handcrafted this theme with a strong focus on "
+"typography, usability and overall user-experience. This beautiful and easy "
+"to customize WordPress theme come with live preview changes integrated with "
+"wp customize. It’s very quick to setup and easy to customize and it comes "
+"with free support. Theme features: custom header, parallax header, header "
+"buttons, custom logo, custom favicon, header custom colors, custom "
+"background color, custom background image, custom footer, custom copyright, "
+"custom social links, custom css, custom layout, left sidebar, right sidebar, "
+"full width layout, additional sidebars, custom widgets, support for jetpack "
+"plugin, styled contact form 7 plugin. Please read the FAQ: Admin Dashboard "
+"&gt; Appearances &gt; Theme FAQ. See our demo: <a>https://goo.gl/Fxdw41</a>"
+msgstr ""
+
+#: cfgs/pages/appearance/faq.php:13
+#: templates/admin/appearance/faq/premium.php:15
+msgid "Gardener Premium"
+msgstr ""
+
+#: cfgs/pages/appearance/faq.php:6
+msgid "Gardener Premium Solution"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.layout.php:28
+#: templates/admin/appearance/faq/customizer.php:15
+msgid "General"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:289
+msgid "Grid Blog View ( + custom page template )"
+msgstr ""
+
+#: templates/admin/appearance/faq/customizer.php:12
+msgid "Header Elements"
+msgstr ""
+
+#: templates/admin/appearance/faq/customizer.php:9
+msgid "Header Image"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:175
+msgid "Header Menu Custom Colors"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.header-tools.php:8
+#: templates/admin/appearance/faq/customizer.php:10
+#: templates/admin/appearance/faq/premium.php:61
+msgid "Header Tools"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:187
+msgid "Header Tools \"Get a Quote\""
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:181
+msgid "Header Tools Contact Info"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:199
+msgid "Header Tools WooCommerce \"My Account\""
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:205
+msgid "Header Tools WooCommerce Cart"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:193
+msgid "Header Tools WooCommerce Search & Filter"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:211
+msgid "Header Tools WooCommerce Wishlist"
+msgstr ""
+
+#: templates/admin/appearance/faq/customizer.php:16
+msgid "Headline"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.header.php:42
+msgid "Headline Max Width"
+msgstr ""
+
+#: templates/admin/appearance/faq/customizer.php:3
+msgid "Here you can see:"
+msgstr ""
+
+#: templates/admin/appearance/faq/customizer.php:47
+msgid "Homepage Settings"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://mythem.es/"
+msgstr ""
+
+#. URI of the theme
+msgid "http://mythem.es/item/gardener-pro/"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.layout.php:29
+msgid "IMPORANT"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.layout.php:69
+msgid ""
+"In order to use this option set you need to activate a static page on Front "
+"Page from - \"Static Front Page\" tab."
+msgstr ""
+
+#: cfgs/sidebars/cfgs.php:58 cfgs/sidebars/cfgs.php:125
+msgid "Inside of the Sidebar the widgets will be arranged in 4 columns."
+msgstr ""
+
+#: cfgs/pages/customize/tempo.header.php:58
+msgid ""
+"Landscape design is much more than simply planting a few trees and shrubs "
+"around your property"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.layout.php:23
+#: cfgs/pages/customize/tempo.layout.php:41
+#: cfgs/pages/customize/tempo.layout.php:73
+#: cfgs/pages/customize/tempo.layout.php:105
+#: cfgs/pages/customize/tempo.layout.php:137
+#: templates/admin/appearance/faq/customizer.php:25
+msgid "Layout"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.layout.php:47
+#: cfgs/pages/customize/tempo.layout.php:79
+#: cfgs/pages/customize/tempo.layout.php:111
+#: cfgs/pages/customize/tempo.layout.php:143
+msgid "Left Sidebar"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:404
+msgid "Limited Solution"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:12
+msgid "limited version"
+msgstr ""
+
+#: cfgs/sidebars/cfgs.php:79 cfgs/pages/customize/tempo.layout.php:8
+msgid "Main Sidebar"
+msgstr ""
+
+#: cfgs/sidebars/cfgs.php:80
+msgid ""
+"Main Sidebar - is used by default for next templates: Blog, Archives, Author,"
+" Categories, Tags and Search Results."
+msgstr ""
+
+#: cfgs/pages/customize/tempo.menu.php:13
+msgid "Menu Appearance"
+msgstr ""
+
+#: templates/admin/appearance/faq/customizer.php:45
+msgid "Menus"
+msgstr ""
+
+#. Author of the theme
+msgid "myThem.es"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:40
+#: woocommerce/single-product/price.php:114
+#: woocommerce/single-product/price.php:147
+msgid "N/A"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:157
+msgid "No Header Image ( one click setup )"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.header.php:104
+#: cfgs/pages/customize/tempo.header.php:154
+msgid "Open url in new window"
+msgstr ""
+
+#: templates/admin/appearance/faq/customizer.php:37
+msgid "Other"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.layout.php:132
+#: templates/admin/appearance/faq/customizer.php:31
+msgid "Page"
+msgstr ""
+
+#: cfgs/sidebars/cfgs.php:106
+msgid "Page - Default Sidebar"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.layout.php:10
+msgid "Page Sidebar"
+msgstr ""
+
+#: cfgs/sidebars/cfgs.php:107
+msgid "Page Sidebar - is used by default for page template."
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:97
+msgid "Plugin Contact Form 7 ( styled )"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:295
+msgid "Portfolio Blog View ( + custom page template )"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.layout.php:100
+#: templates/admin/appearance/faq/customizer.php:30
+msgid "Post"
+msgstr ""
+
+#: widgets/gardener.post-categories.class.php:17
+#: widgets/gardener.post-categories.class.php:35
+msgid "Post Categories"
+msgstr ""
+
+#: widgets/gardener.post-meta.class.php:17
+msgid "Post Meta"
+msgstr ""
+
+#: widgets/gardener.post-meta.class.php:35
+msgid "Post Meta Details"
+msgstr ""
+
+#: widgets/gardener.post-tags.class.php:18
+#: widgets/gardener.post-tags.class.php:36
+msgid "Post Tags"
+msgstr ""
+
+#: templates/page/header/meta/top.php:20
+#: templates/single/header/meta/top.php:20
+#, php-format
+msgid "Posted by %1s"
+msgstr ""
+
+#: templates/page/header/meta/top.php:30
+#: templates/single/header/meta/top.php:30
+#, php-format
+msgid "posted on %1s"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:393
+#: templates/admin/appearance/faq/premium.php:399
+msgid "Priority"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.header-tools.php:51
+msgid "Program first Line"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.header-tools.php:61
+msgid "Program second Line"
+msgstr ""
+
+#: functions.php:556
+msgid "Read more"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:31
+msgid "Responsive layout"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.layout.php:49
+#: cfgs/pages/customize/tempo.layout.php:81
+#: cfgs/pages/customize/tempo.layout.php:113
+#: cfgs/pages/customize/tempo.layout.php:145
+msgid "Right Sidebar"
+msgstr ""
+
+#: woocommerce/product-searchform.php:27
+msgid "Search for:"
+msgstr ""
+
+#: woocommerce/product-searchform.php:28
+msgid "Search products&hellip;"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.header.php:116
+#: templates/admin/appearance/faq/customizer.php:19
+msgid "Second Button"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:62
+#: woocommerce/single-product/meta.php:74
+#: templates/article/terms/categories.php:27
+#: templates/article/terms/categories.php:38
+#: templates/single/terms/categories.php:27
+#: templates/single/terms/categories.php:38
+#: templates/single/header/terms/categories.php:28
+#: templates/single/header/terms/categories.php:40
+#, php-format
+msgid "See articles from category - %1s"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:398
+msgid "Selective ( at our choice )"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:271
+msgid "Shortcodes"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:277
+msgid "Shortcodes Manager"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.layout.php:54
+#: cfgs/pages/customize/tempo.layout.php:86
+#: cfgs/pages/customize/tempo.layout.php:118
+#: cfgs/pages/customize/tempo.layout.php:150
+msgid "Sidebar"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:37
+msgid "Sidebars &amp; Custom Layouts"
+msgstr ""
+
+#: cfgs/sidebars/cfgs.php:97
+msgid "Single Post - Default Sidebar"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.layout.php:11
+msgid "Single Post Sidebar"
+msgstr ""
+
+#: templates/admin/appearance/faq/customizer.php:6
+msgid "Site Identity"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:40
+#: woocommerce/single-product/price.php:113
+#: woocommerce/single-product/price.php:146
+msgid "SKU:"
+msgstr ""
+
+#: templates/admin/appearance/faq/customizer.php:35
+msgid "Social"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:391
+msgid "Support"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:361
+msgid "Support for Easy Google Fonts Plugin"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:355
+msgid "Support for WooCommerce Plugin"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:85
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: cfgs/pages/customize/tempo.header.php:79
+#: cfgs/pages/customize/tempo.header.php:130
+msgid "Text"
+msgstr ""
+
+#: templates/comments/no-comments.php:2
+msgid "There are currently no comments."
+msgstr ""
+
+#: templates/admin/appearance/faq/customizer.php:1
+msgid ""
+"This theme comes with a set of options what allow you to customize content, "
+"header, layouts, social items and others. You can see next theme options "
+"panels if you go to:"
+msgstr ""
+
+#: widgets/gardener.post-categories.class.php:19
+msgid "This widget can be used only for single post template"
+msgstr ""
+
+#: widgets/gardener.post-meta.class.php:19
+msgid "This widget can be used only for single post templates"
+msgstr ""
+
+#: widgets/gardener.post-tags.class.php:20
+msgid "This widget can be used only for single.php template"
+msgstr ""
+
+#: widgets/gardener.post-categories.class.php:92
+#: widgets/gardener.post-meta.class.php:126
+#: widgets/gardener.post-tags.class.php:92
+msgid "Title"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:169
+msgid "Tppper Menu Custom Colors"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:411
+#: templates/admin/appearance/faq/premium.php:416
+msgid "Upgrade to Premium"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:18
+msgid "upgrade to premium"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.header.php:95
+#: cfgs/pages/customize/tempo.header.php:146
+msgid "URL"
+msgstr ""
+
+#: cfgs/pages/customize/tempo.header.php:36
+msgid "We Provide landscaping Services Since 1947"
+msgstr ""
+
+#: templates/admin/appearance/faq/customizer.php:46
+msgid "Widgets"
+msgstr ""
+
+#: widgets/gardener.post-meta.class.php:72
+#, php-format
+msgid "Written by %1s"
+msgstr ""
+
+#: templates/admin/appearance/faq/premium.php:411
+#, php-format
+msgid "You can decide whether to create your site using limited version or %1s"
+msgstr ""

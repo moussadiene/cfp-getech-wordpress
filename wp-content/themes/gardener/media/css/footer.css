@@ -1,0 +1,177 @@
+footer.tempo-footer {
+  background: #3a4043;
+}
+footer.tempo-footer div.tempo-nav {
+  background: transparent;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 12px 0px;
+}
+footer.tempo-footer div.tempo-nav nav {
+  text-align: left;
+  text-rendering: initial;
+  -webkit-font-smoothing: initial;
+  -moz-osx-font-smoothing: initial;
+  -ms-text-size-adjust: initial;
+  -webkit-text-size-adjust: initial;
+}
+@media (max-width: 991px) {
+  footer.tempo-footer div.tempo-nav nav {
+    text-align: center;
+  }
+}
+footer.tempo-footer div.tempo-nav nav .tempo-search-key {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  padding: 0px 1px;
+  margin: 0px;
+}
+footer.tempo-footer div.tempo-nav nav ul li {
+  font-size: 11px;
+  letter-spacing: 0.35px;
+}
+footer.tempo-footer div.tempo-nav nav ul li:before {
+  color: rgba(255, 255, 255, 0.2);
+  font-size: 6px;
+}
+footer.tempo-footer div.tempo-nav nav ul li a {
+  color: rgba(255, 255, 255, 0.6);
+}
+footer.tempo-footer div.tempo-nav nav ul li a:hover {
+  color: #ffffff;
+}
+footer.tempo-footer div.tempo-nav div.footer-contact-wrapper {
+  color: #ffffff;
+  text-align: right;
+  font-weight: bold;
+  letter-spacing: .35px;
+  font-size: 20px;
+  line-height: 28px;
+  margin: -1px 0px;
+  padding: 0px;
+}
+@media (max-width: 991px) {
+  footer.tempo-footer div.tempo-nav div.footer-contact-wrapper {
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 12px 0px;
+    margin-top: 12px;
+  }
+}
+footer.tempo-footer div.gardener-tools {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+footer.tempo-footer div.social-wrapper {
+  float: right;
+}
+@media (max-width: 1260px) {
+  footer.tempo-footer div.social-wrapper {
+    width: 100%;
+    float: none;
+  }
+}
+footer.tempo-footer div.gardener-social {
+  padding: 25px 0px;
+  text-align: right;
+}
+@media (max-width: 1260px) {
+  footer.tempo-footer div.gardener-social {
+    text-align: center;
+  }
+}
+footer.tempo-footer a.gardener-social-item {
+  border: none;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 1px;
+  padding: 0px;
+  text-align: center;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+footer.tempo-footer a.gardener-social-item,
+footer.tempo-footer a.gardener-social-item:before {
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  line-height: 30px;
+}
+footer.tempo-footer a.gardener-social-item:hover,
+footer.tempo-footer a.gardener-social-item:hover:before {
+  color: #ffffff;
+}
+@media (max-width: 1260px) {
+  footer.tempo-footer div.copyright-wrapper {
+    width: 100%;
+    float: none;
+  }
+}
+@media (max-width: 1260px) {
+  footer.tempo-footer div.social-wrapper + div.copyright-wrapper {
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+  }
+}
+footer.tempo-footer div.gardener-copyright {
+  text-align: left;
+  text-rendering: initial;
+  -webkit-font-smoothing: initial;
+  -moz-osx-font-smoothing: initial;
+  -ms-text-size-adjust: initial;
+  -webkit-text-size-adjust: initial;
+}
+@media (max-width: 1260px) {
+  footer.tempo-footer div.gardener-copyright {
+    text-align: center;
+  }
+}
+footer.tempo-footer div.gardener-copyright p {
+  color: #92a1a9;
+  margin: 33px 0px;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: -0.2px;
+  text-transform: uppercase;
+}
+footer.tempo-footer div.gardener-copyright a {
+  color: #ffffff;
+  text-transform: none;
+  border-bottom: none;
+  position: relative;
+}
+footer.tempo-footer div.gardener-copyright a:before {
+  background: rgba(255, 255, 255, 0);
+  position: absolute;
+  content: '';
+  left: 50%;
+  bottom: -1px;
+  width: 0px;
+  height: 1px;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+footer.tempo-footer div.gardener-copyright a:hover:before {
+  background: #ffffff;
+  left: 5%;
+  width: 90%;
+}
+.tempo-scroll-up {
+  bottom: 105px;
+}
+@media (max-width: 1199px) {
+  .tempo-scroll-up {
+    bottom: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .tempo-scroll-up {
+    bottom: 15px;
+  }
+}
+.tempo-scroll-up a {
+  background: rgba(38, 173, 96, 0.5);
+}
+.tempo-scroll-up a:hover {
+  background: #26ad60;
+}

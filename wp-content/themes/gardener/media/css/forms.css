@@ -1,0 +1,2713 @@
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+button,
+.button,
+.tempo-btn,
+.btn {
+  border: none;
+  font-size: 13px;
+  line-height: 28px;
+  margin: 5px;
+  padding: 11px 30px;
+  background-color: #26ad60;
+  border-color: #26ad60;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+button:hover,
+.button:hover,
+.tempo-btn:hover,
+.btn:hover,
+input[type="submit"]:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+button:focus,
+.button:focus,
+.tempo-btn:focus,
+.btn:focus,
+input[type="submit"].focus,
+input[type="button"].focus,
+input[type="reset"].focus,
+button.focus,
+.button.focus,
+.tempo-btn.focus,
+.btn.focus,
+input[type="submit"]:active,
+input[type="button"]:active,
+input[type="reset"]:active,
+button:active,
+.button:active,
+.tempo-btn:active,
+.btn:active,
+input[type="submit"].active,
+input[type="button"].active,
+input[type="reset"].active,
+button.active,
+.button.active,
+.tempo-btn.active,
+.btn.active {
+  background-color: #3a4043;
+  border-color: #3a4043;
+  color: #ffffff;
+}
+input[type="submit"]:hover:focus,
+input[type="button"]:hover:focus,
+input[type="reset"]:hover:focus,
+button:hover:focus,
+.button:hover:focus,
+.tempo-btn:hover:focus,
+.btn:hover:focus,
+input[type="submit"]:hover.focus,
+input[type="button"]:hover.focus,
+input[type="reset"]:hover.focus,
+button:hover.focus,
+.button:hover.focus,
+.tempo-btn:hover.focus,
+.btn:hover.focus,
+input[type="submit"]:hover:active,
+input[type="button"]:hover:active,
+input[type="reset"]:hover:active,
+button:hover:active,
+.button:hover:active,
+.tempo-btn:hover:active,
+.btn:hover:active,
+input[type="submit"]:hover.active,
+input[type="button"]:hover.active,
+input[type="reset"]:hover.active,
+button:hover.active,
+.button:hover.active,
+.tempo-btn:hover.active,
+.btn:hover.active,
+input[type="submit"]:focus:active,
+input[type="button"]:focus:active,
+input[type="reset"]:focus:active,
+button:focus:active,
+.button:focus:active,
+.tempo-btn:focus:active,
+.btn:focus:active,
+input[type="submit"]:focus.active,
+input[type="button"]:focus.active,
+input[type="reset"]:focus.active,
+button:focus.active,
+.button:focus.active,
+.tempo-btn:focus.active,
+.btn:focus.active,
+input[type="submit"].focus.active,
+input[type="button"].focus.active,
+input[type="reset"].focus.active,
+button.focus.active,
+.button.focus.active,
+.tempo-btn.focus.active,
+.btn.focus.active {
+  background-color: #3a4043;
+  border-color: #3a4043;
+  color: #ffffff;
+}
+input[type="submit"].btn-empty,
+input[type="button"].btn-empty,
+input[type="reset"].btn-empty,
+button.btn-empty,
+.button.btn-empty,
+.tempo-btn.btn-empty,
+.btn.btn-empty {
+  color: #26ad60;
+}
+input[type="submit"].btn-empty:hover,
+input[type="button"].btn-empty:hover,
+input[type="reset"].btn-empty:hover,
+button.btn-empty:hover,
+.button.btn-empty:hover,
+.tempo-btn.btn-empty:hover,
+.btn.btn-empty:hover,
+input[type="submit"].btn-empty:focus,
+input[type="button"].btn-empty:focus,
+input[type="reset"].btn-empty:focus,
+button.btn-empty:focus,
+.button.btn-empty:focus,
+.tempo-btn.btn-empty:focus,
+.btn.btn-empty:focus,
+input[type="submit"].btn-empty.focus,
+input[type="button"].btn-empty.focus,
+input[type="reset"].btn-empty.focus,
+button.btn-empty.focus,
+.button.btn-empty.focus,
+.tempo-btn.btn-empty.focus,
+.btn.btn-empty.focus,
+input[type="submit"].btn-empty:active,
+input[type="button"].btn-empty:active,
+input[type="reset"].btn-empty:active,
+button.btn-empty:active,
+.button.btn-empty:active,
+.tempo-btn.btn-empty:active,
+.btn.btn-empty:active,
+input[type="submit"].btn-empty.active,
+input[type="button"].btn-empty.active,
+input[type="reset"].btn-empty.active,
+button.btn-empty.active,
+.button.btn-empty.active,
+.tempo-btn.btn-empty.active,
+.btn.btn-empty.active {
+  background-color: #3a4043;
+  border-color: #3a4043;
+  color: #ffffff;
+}
+input[type="submit"].btn-empty:hover:focus,
+input[type="button"].btn-empty:hover:focus,
+input[type="reset"].btn-empty:hover:focus,
+button.btn-empty:hover:focus,
+.button.btn-empty:hover:focus,
+.tempo-btn.btn-empty:hover:focus,
+.btn.btn-empty:hover:focus,
+input[type="submit"].btn-empty:hover.focus,
+input[type="button"].btn-empty:hover.focus,
+input[type="reset"].btn-empty:hover.focus,
+button.btn-empty:hover.focus,
+.button.btn-empty:hover.focus,
+.tempo-btn.btn-empty:hover.focus,
+.btn.btn-empty:hover.focus,
+input[type="submit"].btn-empty:hover:active,
+input[type="button"].btn-empty:hover:active,
+input[type="reset"].btn-empty:hover:active,
+button.btn-empty:hover:active,
+.button.btn-empty:hover:active,
+.tempo-btn.btn-empty:hover:active,
+.btn.btn-empty:hover:active,
+input[type="submit"].btn-empty:hover.active,
+input[type="button"].btn-empty:hover.active,
+input[type="reset"].btn-empty:hover.active,
+button.btn-empty:hover.active,
+.button.btn-empty:hover.active,
+.tempo-btn.btn-empty:hover.active,
+.btn.btn-empty:hover.active,
+input[type="submit"].btn-empty:focus:active,
+input[type="button"].btn-empty:focus:active,
+input[type="reset"].btn-empty:focus:active,
+button.btn-empty:focus:active,
+.button.btn-empty:focus:active,
+.tempo-btn.btn-empty:focus:active,
+.btn.btn-empty:focus:active,
+input[type="submit"].btn-empty:focus.active,
+input[type="button"].btn-empty:focus.active,
+input[type="reset"].btn-empty:focus.active,
+button.btn-empty:focus.active,
+.button.btn-empty:focus.active,
+.tempo-btn.btn-empty:focus.active,
+.btn.btn-empty:focus.active,
+input[type="submit"].btn-empty.focus.active,
+input[type="button"].btn-empty.focus.active,
+input[type="reset"].btn-empty.focus.active,
+button.btn-empty.focus.active,
+.button.btn-empty.focus.active,
+.tempo-btn.btn-empty.focus.active,
+.btn.btn-empty.focus.active {
+  background-color: #3a4043;
+  border-color: #3a4043;
+  color: #ffffff;
+}
+input[type="submit"].btn-hover-empty:hover,
+input[type="button"].btn-hover-empty:hover,
+input[type="reset"].btn-hover-empty:hover,
+button.btn-hover-empty:hover,
+.button.btn-hover-empty:hover,
+.tempo-btn.btn-hover-empty:hover,
+.btn.btn-hover-empty:hover,
+input[type="submit"].btn-hover-empty:focus,
+input[type="button"].btn-hover-empty:focus,
+input[type="reset"].btn-hover-empty:focus,
+button.btn-hover-empty:focus,
+.button.btn-hover-empty:focus,
+.tempo-btn.btn-hover-empty:focus,
+.btn.btn-hover-empty:focus,
+input[type="submit"].btn-hover-empty.focus,
+input[type="button"].btn-hover-empty.focus,
+input[type="reset"].btn-hover-empty.focus,
+button.btn-hover-empty.focus,
+.button.btn-hover-empty.focus,
+.tempo-btn.btn-hover-empty.focus,
+.btn.btn-hover-empty.focus,
+input[type="submit"].btn-hover-empty:active,
+input[type="button"].btn-hover-empty:active,
+input[type="reset"].btn-hover-empty:active,
+button.btn-hover-empty:active,
+.button.btn-hover-empty:active,
+.tempo-btn.btn-hover-empty:active,
+.btn.btn-hover-empty:active,
+input[type="submit"].btn-hover-empty.active,
+input[type="button"].btn-hover-empty.active,
+input[type="reset"].btn-hover-empty.active,
+button.btn-hover-empty.active,
+.button.btn-hover-empty.active,
+.tempo-btn.btn-hover-empty.active,
+.btn.btn-hover-empty.active {
+  background-color: transparent;
+  border-color: #3a4043;
+  color: #3a4043;
+}
+input[type="submit"].btn-hover-empty:hover:focus,
+input[type="button"].btn-hover-empty:hover:focus,
+input[type="reset"].btn-hover-empty:hover:focus,
+button.btn-hover-empty:hover:focus,
+.button.btn-hover-empty:hover:focus,
+.tempo-btn.btn-hover-empty:hover:focus,
+.btn.btn-hover-empty:hover:focus,
+input[type="submit"].btn-hover-empty:hover.focus,
+input[type="button"].btn-hover-empty:hover.focus,
+input[type="reset"].btn-hover-empty:hover.focus,
+button.btn-hover-empty:hover.focus,
+.button.btn-hover-empty:hover.focus,
+.tempo-btn.btn-hover-empty:hover.focus,
+.btn.btn-hover-empty:hover.focus,
+input[type="submit"].btn-hover-empty:hover:active,
+input[type="button"].btn-hover-empty:hover:active,
+input[type="reset"].btn-hover-empty:hover:active,
+button.btn-hover-empty:hover:active,
+.button.btn-hover-empty:hover:active,
+.tempo-btn.btn-hover-empty:hover:active,
+.btn.btn-hover-empty:hover:active,
+input[type="submit"].btn-hover-empty:hover.active,
+input[type="button"].btn-hover-empty:hover.active,
+input[type="reset"].btn-hover-empty:hover.active,
+button.btn-hover-empty:hover.active,
+.button.btn-hover-empty:hover.active,
+.tempo-btn.btn-hover-empty:hover.active,
+.btn.btn-hover-empty:hover.active,
+input[type="submit"].btn-hover-empty:focus:active,
+input[type="button"].btn-hover-empty:focus:active,
+input[type="reset"].btn-hover-empty:focus:active,
+button.btn-hover-empty:focus:active,
+.button.btn-hover-empty:focus:active,
+.tempo-btn.btn-hover-empty:focus:active,
+.btn.btn-hover-empty:focus:active,
+input[type="submit"].btn-hover-empty:focus.active,
+input[type="button"].btn-hover-empty:focus.active,
+input[type="reset"].btn-hover-empty:focus.active,
+button.btn-hover-empty:focus.active,
+.button.btn-hover-empty:focus.active,
+.tempo-btn.btn-hover-empty:focus.active,
+.btn.btn-hover-empty:focus.active,
+input[type="submit"].btn-hover-empty.focus.active,
+input[type="button"].btn-hover-empty.focus.active,
+input[type="reset"].btn-hover-empty.focus.active,
+button.btn-hover-empty.focus.active,
+.button.btn-hover-empty.focus.active,
+.tempo-btn.btn-hover-empty.focus.active,
+.btn.btn-hover-empty.focus.active {
+  background-color: transparent;
+  border-color: #3a4043;
+  color: #3a4043;
+}
+input[type="submit"].btn-search,
+input[type="button"].btn-search,
+input[type="reset"].btn-search,
+button.btn-search,
+.button.btn-search,
+.tempo-btn.btn-search,
+.btn.btn-search,
+input[type="submit"].btn-header,
+input[type="button"].btn-header,
+input[type="reset"].btn-header,
+button.btn-header,
+.button.btn-header,
+.tempo-btn.btn-header,
+.btn.btn-header {
+  font-size: 13px;
+  background-color: #26ad60;
+  border-color: #26ad60;
+  color: #ffffff;
+}
+input[type="submit"].btn-search:hover,
+input[type="button"].btn-search:hover,
+input[type="reset"].btn-search:hover,
+button.btn-search:hover,
+.button.btn-search:hover,
+.tempo-btn.btn-search:hover,
+.btn.btn-search:hover,
+input[type="submit"].btn-header:hover,
+input[type="button"].btn-header:hover,
+input[type="reset"].btn-header:hover,
+button.btn-header:hover,
+.button.btn-header:hover,
+.tempo-btn.btn-header:hover,
+.btn.btn-header:hover,
+input[type="submit"].btn-search:focus,
+input[type="button"].btn-search:focus,
+input[type="reset"].btn-search:focus,
+button.btn-search:focus,
+.button.btn-search:focus,
+.tempo-btn.btn-search:focus,
+.btn.btn-search:focus,
+input[type="submit"].btn-header:focus,
+input[type="button"].btn-header:focus,
+input[type="reset"].btn-header:focus,
+button.btn-header:focus,
+.button.btn-header:focus,
+.tempo-btn.btn-header:focus,
+.btn.btn-header:focus,
+input[type="submit"].btn-search.focus,
+input[type="button"].btn-search.focus,
+input[type="reset"].btn-search.focus,
+button.btn-search.focus,
+.button.btn-search.focus,
+.tempo-btn.btn-search.focus,
+.btn.btn-search.focus,
+input[type="submit"].btn-header.focus,
+input[type="button"].btn-header.focus,
+input[type="reset"].btn-header.focus,
+button.btn-header.focus,
+.button.btn-header.focus,
+.tempo-btn.btn-header.focus,
+.btn.btn-header.focus,
+input[type="submit"].btn-search:active,
+input[type="button"].btn-search:active,
+input[type="reset"].btn-search:active,
+button.btn-search:active,
+.button.btn-search:active,
+.tempo-btn.btn-search:active,
+.btn.btn-search:active,
+input[type="submit"].btn-header:active,
+input[type="button"].btn-header:active,
+input[type="reset"].btn-header:active,
+button.btn-header:active,
+.button.btn-header:active,
+.tempo-btn.btn-header:active,
+.btn.btn-header:active,
+input[type="submit"].btn-search.active,
+input[type="button"].btn-search.active,
+input[type="reset"].btn-search.active,
+button.btn-search.active,
+.button.btn-search.active,
+.tempo-btn.btn-search.active,
+.btn.btn-search.active,
+input[type="submit"].btn-header.active,
+input[type="button"].btn-header.active,
+input[type="reset"].btn-header.active,
+button.btn-header.active,
+.button.btn-header.active,
+.tempo-btn.btn-header.active,
+.btn.btn-header.active {
+  background-color: #3a4043;
+  border-color: #3a4043;
+  color: #ffffff;
+}
+input[type="submit"].btn-search:hover:focus,
+input[type="button"].btn-search:hover:focus,
+input[type="reset"].btn-search:hover:focus,
+button.btn-search:hover:focus,
+.button.btn-search:hover:focus,
+.tempo-btn.btn-search:hover:focus,
+.btn.btn-search:hover:focus,
+input[type="submit"].btn-header:hover:focus,
+input[type="button"].btn-header:hover:focus,
+input[type="reset"].btn-header:hover:focus,
+button.btn-header:hover:focus,
+.button.btn-header:hover:focus,
+.tempo-btn.btn-header:hover:focus,
+.btn.btn-header:hover:focus,
+input[type="submit"].btn-search:hover.focus,
+input[type="button"].btn-search:hover.focus,
+input[type="reset"].btn-search:hover.focus,
+button.btn-search:hover.focus,
+.button.btn-search:hover.focus,
+.tempo-btn.btn-search:hover.focus,
+.btn.btn-search:hover.focus,
+input[type="submit"].btn-header:hover.focus,
+input[type="button"].btn-header:hover.focus,
+input[type="reset"].btn-header:hover.focus,
+button.btn-header:hover.focus,
+.button.btn-header:hover.focus,
+.tempo-btn.btn-header:hover.focus,
+.btn.btn-header:hover.focus,
+input[type="submit"].btn-search:hover:active,
+input[type="button"].btn-search:hover:active,
+input[type="reset"].btn-search:hover:active,
+button.btn-search:hover:active,
+.button.btn-search:hover:active,
+.tempo-btn.btn-search:hover:active,
+.btn.btn-search:hover:active,
+input[type="submit"].btn-header:hover:active,
+input[type="button"].btn-header:hover:active,
+input[type="reset"].btn-header:hover:active,
+button.btn-header:hover:active,
+.button.btn-header:hover:active,
+.tempo-btn.btn-header:hover:active,
+.btn.btn-header:hover:active,
+input[type="submit"].btn-search:hover.active,
+input[type="button"].btn-search:hover.active,
+input[type="reset"].btn-search:hover.active,
+button.btn-search:hover.active,
+.button.btn-search:hover.active,
+.tempo-btn.btn-search:hover.active,
+.btn.btn-search:hover.active,
+input[type="submit"].btn-header:hover.active,
+input[type="button"].btn-header:hover.active,
+input[type="reset"].btn-header:hover.active,
+button.btn-header:hover.active,
+.button.btn-header:hover.active,
+.tempo-btn.btn-header:hover.active,
+.btn.btn-header:hover.active,
+input[type="submit"].btn-search:focus:active,
+input[type="button"].btn-search:focus:active,
+input[type="reset"].btn-search:focus:active,
+button.btn-search:focus:active,
+.button.btn-search:focus:active,
+.tempo-btn.btn-search:focus:active,
+.btn.btn-search:focus:active,
+input[type="submit"].btn-header:focus:active,
+input[type="button"].btn-header:focus:active,
+input[type="reset"].btn-header:focus:active,
+button.btn-header:focus:active,
+.button.btn-header:focus:active,
+.tempo-btn.btn-header:focus:active,
+.btn.btn-header:focus:active,
+input[type="submit"].btn-search:focus.active,
+input[type="button"].btn-search:focus.active,
+input[type="reset"].btn-search:focus.active,
+button.btn-search:focus.active,
+.button.btn-search:focus.active,
+.tempo-btn.btn-search:focus.active,
+.btn.btn-search:focus.active,
+input[type="submit"].btn-header:focus.active,
+input[type="button"].btn-header:focus.active,
+input[type="reset"].btn-header:focus.active,
+button.btn-header:focus.active,
+.button.btn-header:focus.active,
+.tempo-btn.btn-header:focus.active,
+.btn.btn-header:focus.active,
+input[type="submit"].btn-search.focus.active,
+input[type="button"].btn-search.focus.active,
+input[type="reset"].btn-search.focus.active,
+button.btn-search.focus.active,
+.button.btn-search.focus.active,
+.tempo-btn.btn-search.focus.active,
+.btn.btn-search.focus.active,
+input[type="submit"].btn-header.focus.active,
+input[type="button"].btn-header.focus.active,
+input[type="reset"].btn-header.focus.active,
+button.btn-header.focus.active,
+.button.btn-header.focus.active,
+.tempo-btn.btn-header.focus.active,
+.btn.btn-header.focus.active {
+  background-color: #3a4043;
+  border-color: #3a4043;
+  color: #ffffff;
+}
+input[type="submit"].btn-search.btn-empty,
+input[type="button"].btn-search.btn-empty,
+input[type="reset"].btn-search.btn-empty,
+button.btn-search.btn-empty,
+.button.btn-search.btn-empty,
+.tempo-btn.btn-search.btn-empty,
+.btn.btn-search.btn-empty,
+input[type="submit"].btn-header.btn-empty,
+input[type="button"].btn-header.btn-empty,
+input[type="reset"].btn-header.btn-empty,
+button.btn-header.btn-empty,
+.button.btn-header.btn-empty,
+.tempo-btn.btn-header.btn-empty,
+.btn.btn-header.btn-empty {
+  color: #26ad60;
+}
+input[type="submit"].btn-search.btn-empty:hover,
+input[type="button"].btn-search.btn-empty:hover,
+input[type="reset"].btn-search.btn-empty:hover,
+button.btn-search.btn-empty:hover,
+.button.btn-search.btn-empty:hover,
+.tempo-btn.btn-search.btn-empty:hover,
+.btn.btn-search.btn-empty:hover,
+input[type="submit"].btn-header.btn-empty:hover,
+input[type="button"].btn-header.btn-empty:hover,
+input[type="reset"].btn-header.btn-empty:hover,
+button.btn-header.btn-empty:hover,
+.button.btn-header.btn-empty:hover,
+.tempo-btn.btn-header.btn-empty:hover,
+.btn.btn-header.btn-empty:hover,
+input[type="submit"].btn-search.btn-empty:focus,
+input[type="button"].btn-search.btn-empty:focus,
+input[type="reset"].btn-search.btn-empty:focus,
+button.btn-search.btn-empty:focus,
+.button.btn-search.btn-empty:focus,
+.tempo-btn.btn-search.btn-empty:focus,
+.btn.btn-search.btn-empty:focus,
+input[type="submit"].btn-header.btn-empty:focus,
+input[type="button"].btn-header.btn-empty:focus,
+input[type="reset"].btn-header.btn-empty:focus,
+button.btn-header.btn-empty:focus,
+.button.btn-header.btn-empty:focus,
+.tempo-btn.btn-header.btn-empty:focus,
+.btn.btn-header.btn-empty:focus,
+input[type="submit"].btn-search.btn-empty.focus,
+input[type="button"].btn-search.btn-empty.focus,
+input[type="reset"].btn-search.btn-empty.focus,
+button.btn-search.btn-empty.focus,
+.button.btn-search.btn-empty.focus,
+.tempo-btn.btn-search.btn-empty.focus,
+.btn.btn-search.btn-empty.focus,
+input[type="submit"].btn-header.btn-empty.focus,
+input[type="button"].btn-header.btn-empty.focus,
+input[type="reset"].btn-header.btn-empty.focus,
+button.btn-header.btn-empty.focus,
+.button.btn-header.btn-empty.focus,
+.tempo-btn.btn-header.btn-empty.focus,
+.btn.btn-header.btn-empty.focus,
+input[type="submit"].btn-search.btn-empty:active,
+input[type="button"].btn-search.btn-empty:active,
+input[type="reset"].btn-search.btn-empty:active,
+button.btn-search.btn-empty:active,
+.button.btn-search.btn-empty:active,
+.tempo-btn.btn-search.btn-empty:active,
+.btn.btn-search.btn-empty:active,
+input[type="submit"].btn-header.btn-empty:active,
+input[type="button"].btn-header.btn-empty:active,
+input[type="reset"].btn-header.btn-empty:active,
+button.btn-header.btn-empty:active,
+.button.btn-header.btn-empty:active,
+.tempo-btn.btn-header.btn-empty:active,
+.btn.btn-header.btn-empty:active,
+input[type="submit"].btn-search.btn-empty.active,
+input[type="button"].btn-search.btn-empty.active,
+input[type="reset"].btn-search.btn-empty.active,
+button.btn-search.btn-empty.active,
+.button.btn-search.btn-empty.active,
+.tempo-btn.btn-search.btn-empty.active,
+.btn.btn-search.btn-empty.active,
+input[type="submit"].btn-header.btn-empty.active,
+input[type="button"].btn-header.btn-empty.active,
+input[type="reset"].btn-header.btn-empty.active,
+button.btn-header.btn-empty.active,
+.button.btn-header.btn-empty.active,
+.tempo-btn.btn-header.btn-empty.active,
+.btn.btn-header.btn-empty.active {
+  background-color: #3a4043;
+  border-color: #3a4043;
+  color: #ffffff;
+}
+input[type="submit"].btn-search.btn-empty:hover:focus,
+input[type="button"].btn-search.btn-empty:hover:focus,
+input[type="reset"].btn-search.btn-empty:hover:focus,
+button.btn-search.btn-empty:hover:focus,
+.button.btn-search.btn-empty:hover:focus,
+.tempo-btn.btn-search.btn-empty:hover:focus,
+.btn.btn-search.btn-empty:hover:focus,
+input[type="submit"].btn-header.btn-empty:hover:focus,
+input[type="button"].btn-header.btn-empty:hover:focus,
+input[type="reset"].btn-header.btn-empty:hover:focus,
+button.btn-header.btn-empty:hover:focus,
+.button.btn-header.btn-empty:hover:focus,
+.tempo-btn.btn-header.btn-empty:hover:focus,
+.btn.btn-header.btn-empty:hover:focus,
+input[type="submit"].btn-search.btn-empty:hover.focus,
+input[type="button"].btn-search.btn-empty:hover.focus,
+input[type="reset"].btn-search.btn-empty:hover.focus,
+button.btn-search.btn-empty:hover.focus,
+.button.btn-search.btn-empty:hover.focus,
+.tempo-btn.btn-search.btn-empty:hover.focus,
+.btn.btn-search.btn-empty:hover.focus,
+input[type="submit"].btn-header.btn-empty:hover.focus,
+input[type="button"].btn-header.btn-empty:hover.focus,
+input[type="reset"].btn-header.btn-empty:hover.focus,
+button.btn-header.btn-empty:hover.focus,
+.button.btn-header.btn-empty:hover.focus,
+.tempo-btn.btn-header.btn-empty:hover.focus,
+.btn.btn-header.btn-empty:hover.focus,
+input[type="submit"].btn-search.btn-empty:hover:active,
+input[type="button"].btn-search.btn-empty:hover:active,
+input[type="reset"].btn-search.btn-empty:hover:active,
+button.btn-search.btn-empty:hover:active,
+.button.btn-search.btn-empty:hover:active,
+.tempo-btn.btn-search.btn-empty:hover:active,
+.btn.btn-search.btn-empty:hover:active,
+input[type="submit"].btn-header.btn-empty:hover:active,
+input[type="button"].btn-header.btn-empty:hover:active,
+input[type="reset"].btn-header.btn-empty:hover:active,
+button.btn-header.btn-empty:hover:active,
+.button.btn-header.btn-empty:hover:active,
+.tempo-btn.btn-header.btn-empty:hover:active,
+.btn.btn-header.btn-empty:hover:active,
+input[type="submit"].btn-search.btn-empty:hover.active,
+input[type="button"].btn-search.btn-empty:hover.active,
+input[type="reset"].btn-search.btn-empty:hover.active,
+button.btn-search.btn-empty:hover.active,
+.button.btn-search.btn-empty:hover.active,
+.tempo-btn.btn-search.btn-empty:hover.active,
+.btn.btn-search.btn-empty:hover.active,
+input[type="submit"].btn-header.btn-empty:hover.active,
+input[type="button"].btn-header.btn-empty:hover.active,
+input[type="reset"].btn-header.btn-empty:hover.active,
+button.btn-header.btn-empty:hover.active,
+.button.btn-header.btn-empty:hover.active,
+.tempo-btn.btn-header.btn-empty:hover.active,
+.btn.btn-header.btn-empty:hover.active,
+input[type="submit"].btn-search.btn-empty:focus:active,
+input[type="button"].btn-search.btn-empty:focus:active,
+input[type="reset"].btn-search.btn-empty:focus:active,
+button.btn-search.btn-empty:focus:active,
+.button.btn-search.btn-empty:focus:active,
+.tempo-btn.btn-search.btn-empty:focus:active,
+.btn.btn-search.btn-empty:focus:active,
+input[type="submit"].btn-header.btn-empty:focus:active,
+input[type="button"].btn-header.btn-empty:focus:active,
+input[type="reset"].btn-header.btn-empty:focus:active,
+button.btn-header.btn-empty:focus:active,
+.button.btn-header.btn-empty:focus:active,
+.tempo-btn.btn-header.btn-empty:focus:active,
+.btn.btn-header.btn-empty:focus:active,
+input[type="submit"].btn-search.btn-empty:focus.active,
+input[type="button"].btn-search.btn-empty:focus.active,
+input[type="reset"].btn-search.btn-empty:focus.active,
+button.btn-search.btn-empty:focus.active,
+.button.btn-search.btn-empty:focus.active,
+.tempo-btn.btn-search.btn-empty:focus.active,
+.btn.btn-search.btn-empty:focus.active,
+input[type="submit"].btn-header.btn-empty:focus.active,
+input[type="button"].btn-header.btn-empty:focus.active,
+input[type="reset"].btn-header.btn-empty:focus.active,
+button.btn-header.btn-empty:focus.active,
+.button.btn-header.btn-empty:focus.active,
+.tempo-btn.btn-header.btn-empty:focus.active,
+.btn.btn-header.btn-empty:focus.active,
+input[type="submit"].btn-search.btn-empty.focus.active,
+input[type="button"].btn-search.btn-empty.focus.active,
+input[type="reset"].btn-search.btn-empty.focus.active,
+button.btn-search.btn-empty.focus.active,
+.button.btn-search.btn-empty.focus.active,
+.tempo-btn.btn-search.btn-empty.focus.active,
+.btn.btn-search.btn-empty.focus.active,
+input[type="submit"].btn-header.btn-empty.focus.active,
+input[type="button"].btn-header.btn-empty.focus.active,
+input[type="reset"].btn-header.btn-empty.focus.active,
+button.btn-header.btn-empty.focus.active,
+.button.btn-header.btn-empty.focus.active,
+.tempo-btn.btn-header.btn-empty.focus.active,
+.btn.btn-header.btn-empty.focus.active {
+  background-color: #3a4043;
+  border-color: #3a4043;
+  color: #ffffff;
+}
+input[type="submit"].btn-search.btn-hover-empty:hover,
+input[type="button"].btn-search.btn-hover-empty:hover,
+input[type="reset"].btn-search.btn-hover-empty:hover,
+button.btn-search.btn-hover-empty:hover,
+.button.btn-search.btn-hover-empty:hover,
+.tempo-btn.btn-search.btn-hover-empty:hover,
+.btn.btn-search.btn-hover-empty:hover,
+input[type="submit"].btn-header.btn-hover-empty:hover,
+input[type="button"].btn-header.btn-hover-empty:hover,
+input[type="reset"].btn-header.btn-hover-empty:hover,
+button.btn-header.btn-hover-empty:hover,
+.button.btn-header.btn-hover-empty:hover,
+.tempo-btn.btn-header.btn-hover-empty:hover,
+.btn.btn-header.btn-hover-empty:hover,
+input[type="submit"].btn-search.btn-hover-empty:focus,
+input[type="button"].btn-search.btn-hover-empty:focus,
+input[type="reset"].btn-search.btn-hover-empty:focus,
+button.btn-search.btn-hover-empty:focus,
+.button.btn-search.btn-hover-empty:focus,
+.tempo-btn.btn-search.btn-hover-empty:focus,
+.btn.btn-search.btn-hover-empty:focus,
+input[type="submit"].btn-header.btn-hover-empty:focus,
+input[type="button"].btn-header.btn-hover-empty:focus,
+input[type="reset"].btn-header.btn-hover-empty:focus,
+button.btn-header.btn-hover-empty:focus,
+.button.btn-header.btn-hover-empty:focus,
+.tempo-btn.btn-header.btn-hover-empty:focus,
+.btn.btn-header.btn-hover-empty:focus,
+input[type="submit"].btn-search.btn-hover-empty.focus,
+input[type="button"].btn-search.btn-hover-empty.focus,
+input[type="reset"].btn-search.btn-hover-empty.focus,
+button.btn-search.btn-hover-empty.focus,
+.button.btn-search.btn-hover-empty.focus,
+.tempo-btn.btn-search.btn-hover-empty.focus,
+.btn.btn-search.btn-hover-empty.focus,
+input[type="submit"].btn-header.btn-hover-empty.focus,
+input[type="button"].btn-header.btn-hover-empty.focus,
+input[type="reset"].btn-header.btn-hover-empty.focus,
+button.btn-header.btn-hover-empty.focus,
+.button.btn-header.btn-hover-empty.focus,
+.tempo-btn.btn-header.btn-hover-empty.focus,
+.btn.btn-header.btn-hover-empty.focus,
+input[type="submit"].btn-search.btn-hover-empty:active,
+input[type="button"].btn-search.btn-hover-empty:active,
+input[type="reset"].btn-search.btn-hover-empty:active,
+button.btn-search.btn-hover-empty:active,
+.button.btn-search.btn-hover-empty:active,
+.tempo-btn.btn-search.btn-hover-empty:active,
+.btn.btn-search.btn-hover-empty:active,
+input[type="submit"].btn-header.btn-hover-empty:active,
+input[type="button"].btn-header.btn-hover-empty:active,
+input[type="reset"].btn-header.btn-hover-empty:active,
+button.btn-header.btn-hover-empty:active,
+.button.btn-header.btn-hover-empty:active,
+.tempo-btn.btn-header.btn-hover-empty:active,
+.btn.btn-header.btn-hover-empty:active,
+input[type="submit"].btn-search.btn-hover-empty.active,
+input[type="button"].btn-search.btn-hover-empty.active,
+input[type="reset"].btn-search.btn-hover-empty.active,
+button.btn-search.btn-hover-empty.active,
+.button.btn-search.btn-hover-empty.active,
+.tempo-btn.btn-search.btn-hover-empty.active,
+.btn.btn-search.btn-hover-empty.active,
+input[type="submit"].btn-header.btn-hover-empty.active,
+input[type="button"].btn-header.btn-hover-empty.active,
+input[type="reset"].btn-header.btn-hover-empty.active,
+button.btn-header.btn-hover-empty.active,
+.button.btn-header.btn-hover-empty.active,
+.tempo-btn.btn-header.btn-hover-empty.active,
+.btn.btn-header.btn-hover-empty.active {
+  background-color: transparent;
+  border-color: #3a4043;
+  color: #3a4043;
+}
+input[type="submit"].btn-search.btn-hover-empty:hover:focus,
+input[type="button"].btn-search.btn-hover-empty:hover:focus,
+input[type="reset"].btn-search.btn-hover-empty:hover:focus,
+button.btn-search.btn-hover-empty:hover:focus,
+.button.btn-search.btn-hover-empty:hover:focus,
+.tempo-btn.btn-search.btn-hover-empty:hover:focus,
+.btn.btn-search.btn-hover-empty:hover:focus,
+input[type="submit"].btn-header.btn-hover-empty:hover:focus,
+input[type="button"].btn-header.btn-hover-empty:hover:focus,
+input[type="reset"].btn-header.btn-hover-empty:hover:focus,
+button.btn-header.btn-hover-empty:hover:focus,
+.button.btn-header.btn-hover-empty:hover:focus,
+.tempo-btn.btn-header.btn-hover-empty:hover:focus,
+.btn.btn-header.btn-hover-empty:hover:focus,
+input[type="submit"].btn-search.btn-hover-empty:hover.focus,
+input[type="button"].btn-search.btn-hover-empty:hover.focus,
+input[type="reset"].btn-search.btn-hover-empty:hover.focus,
+button.btn-search.btn-hover-empty:hover.focus,
+.button.btn-search.btn-hover-empty:hover.focus,
+.tempo-btn.btn-search.btn-hover-empty:hover.focus,
+.btn.btn-search.btn-hover-empty:hover.focus,
+input[type="submit"].btn-header.btn-hover-empty:hover.focus,
+input[type="button"].btn-header.btn-hover-empty:hover.focus,
+input[type="reset"].btn-header.btn-hover-empty:hover.focus,
+button.btn-header.btn-hover-empty:hover.focus,
+.button.btn-header.btn-hover-empty:hover.focus,
+.tempo-btn.btn-header.btn-hover-empty:hover.focus,
+.btn.btn-header.btn-hover-empty:hover.focus,
+input[type="submit"].btn-search.btn-hover-empty:hover:active,
+input[type="button"].btn-search.btn-hover-empty:hover:active,
+input[type="reset"].btn-search.btn-hover-empty:hover:active,
+button.btn-search.btn-hover-empty:hover:active,
+.button.btn-search.btn-hover-empty:hover:active,
+.tempo-btn.btn-search.btn-hover-empty:hover:active,
+.btn.btn-search.btn-hover-empty:hover:active,
+input[type="submit"].btn-header.btn-hover-empty:hover:active,
+input[type="button"].btn-header.btn-hover-empty:hover:active,
+input[type="reset"].btn-header.btn-hover-empty:hover:active,
+button.btn-header.btn-hover-empty:hover:active,
+.button.btn-header.btn-hover-empty:hover:active,
+.tempo-btn.btn-header.btn-hover-empty:hover:active,
+.btn.btn-header.btn-hover-empty:hover:active,
+input[type="submit"].btn-search.btn-hover-empty:hover.active,
+input[type="button"].btn-search.btn-hover-empty:hover.active,
+input[type="reset"].btn-search.btn-hover-empty:hover.active,
+button.btn-search.btn-hover-empty:hover.active,
+.button.btn-search.btn-hover-empty:hover.active,
+.tempo-btn.btn-search.btn-hover-empty:hover.active,
+.btn.btn-search.btn-hover-empty:hover.active,
+input[type="submit"].btn-header.btn-hover-empty:hover.active,
+input[type="button"].btn-header.btn-hover-empty:hover.active,
+input[type="reset"].btn-header.btn-hover-empty:hover.active,
+button.btn-header.btn-hover-empty:hover.active,
+.button.btn-header.btn-hover-empty:hover.active,
+.tempo-btn.btn-header.btn-hover-empty:hover.active,
+.btn.btn-header.btn-hover-empty:hover.active,
+input[type="submit"].btn-search.btn-hover-empty:focus:active,
+input[type="button"].btn-search.btn-hover-empty:focus:active,
+input[type="reset"].btn-search.btn-hover-empty:focus:active,
+button.btn-search.btn-hover-empty:focus:active,
+.button.btn-search.btn-hover-empty:focus:active,
+.tempo-btn.btn-search.btn-hover-empty:focus:active,
+.btn.btn-search.btn-hover-empty:focus:active,
+input[type="submit"].btn-header.btn-hover-empty:focus:active,
+input[type="button"].btn-header.btn-hover-empty:focus:active,
+input[type="reset"].btn-header.btn-hover-empty:focus:active,
+button.btn-header.btn-hover-empty:focus:active,
+.button.btn-header.btn-hover-empty:focus:active,
+.tempo-btn.btn-header.btn-hover-empty:focus:active,
+.btn.btn-header.btn-hover-empty:focus:active,
+input[type="submit"].btn-search.btn-hover-empty:focus.active,
+input[type="button"].btn-search.btn-hover-empty:focus.active,
+input[type="reset"].btn-search.btn-hover-empty:focus.active,
+button.btn-search.btn-hover-empty:focus.active,
+.button.btn-search.btn-hover-empty:focus.active,
+.tempo-btn.btn-search.btn-hover-empty:focus.active,
+.btn.btn-search.btn-hover-empty:focus.active,
+input[type="submit"].btn-header.btn-hover-empty:focus.active,
+input[type="button"].btn-header.btn-hover-empty:focus.active,
+input[type="reset"].btn-header.btn-hover-empty:focus.active,
+button.btn-header.btn-hover-empty:focus.active,
+.button.btn-header.btn-hover-empty:focus.active,
+.tempo-btn.btn-header.btn-hover-empty:focus.active,
+.btn.btn-header.btn-hover-empty:focus.active,
+input[type="submit"].btn-search.btn-hover-empty.focus.active,
+input[type="button"].btn-search.btn-hover-empty.focus.active,
+input[type="reset"].btn-search.btn-hover-empty.focus.active,
+button.btn-search.btn-hover-empty.focus.active,
+.button.btn-search.btn-hover-empty.focus.active,
+.tempo-btn.btn-search.btn-hover-empty.focus.active,
+.btn.btn-search.btn-hover-empty.focus.active,
+input[type="submit"].btn-header.btn-hover-empty.focus.active,
+input[type="button"].btn-header.btn-hover-empty.focus.active,
+input[type="reset"].btn-header.btn-hover-empty.focus.active,
+button.btn-header.btn-hover-empty.focus.active,
+.button.btn-header.btn-hover-empty.focus.active,
+.tempo-btn.btn-header.btn-hover-empty.focus.active,
+.btn.btn-header.btn-hover-empty.focus.active {
+  background-color: transparent;
+  border-color: #3a4043;
+  color: #3a4043;
+}
+input[type="submit"].btn-search.btn-empty,
+input[type="button"].btn-search.btn-empty,
+input[type="reset"].btn-search.btn-empty,
+button.btn-search.btn-empty,
+.button.btn-search.btn-empty,
+.tempo-btn.btn-search.btn-empty,
+.btn.btn-search.btn-empty,
+input[type="submit"].btn-header.btn-empty,
+input[type="button"].btn-header.btn-empty,
+input[type="reset"].btn-header.btn-empty,
+button.btn-header.btn-empty,
+.button.btn-header.btn-empty,
+.tempo-btn.btn-header.btn-empty,
+.btn.btn-header.btn-empty {
+  background-color: transparent;
+}
+input[type="submit"].btn-search:hover.btn-hover-empty,
+input[type="button"].btn-search:hover.btn-hover-empty,
+input[type="reset"].btn-search:hover.btn-hover-empty,
+button.btn-search:hover.btn-hover-empty,
+.button.btn-search:hover.btn-hover-empty,
+.tempo-btn.btn-search:hover.btn-hover-empty,
+.btn.btn-search:hover.btn-hover-empty,
+input[type="submit"].btn-header:hover.btn-hover-empty,
+input[type="button"].btn-header:hover.btn-hover-empty,
+input[type="reset"].btn-header:hover.btn-hover-empty,
+button.btn-header:hover.btn-hover-empty,
+.button.btn-header:hover.btn-hover-empty,
+.tempo-btn.btn-header:hover.btn-hover-empty,
+.btn.btn-header:hover.btn-hover-empty {
+  background-color: transparent;
+}
+input[type="submit"].btn-search.small,
+input[type="button"].btn-search.small,
+input[type="reset"].btn-search.small,
+button.btn-search.small,
+.button.btn-search.small,
+.tempo-btn.btn-search.small,
+.btn.btn-search.small,
+input[type="submit"].btn-header.small,
+input[type="button"].btn-header.small,
+input[type="reset"].btn-header.small,
+button.btn-header.small,
+.button.btn-header.small,
+.tempo-btn.btn-header.small,
+.btn.btn-header.small {
+  font-size: 12px;
+}
+input[type="submit"].btn-search.large,
+input[type="button"].btn-search.large,
+input[type="reset"].btn-search.large,
+button.btn-search.large,
+.button.btn-search.large,
+.tempo-btn.btn-search.large,
+.btn.btn-search.large,
+input[type="submit"].btn-header.large,
+input[type="button"].btn-header.large,
+input[type="reset"].btn-header.large,
+button.btn-header.large,
+.button.btn-header.large,
+.tempo-btn.btn-header.large,
+.btn.btn-header.large {
+  font-size: 16px;
+}
+input[type="submit"].btn-newsletter,
+input[type="button"].btn-newsletter,
+input[type="reset"].btn-newsletter,
+button.btn-newsletter,
+.button.btn-newsletter,
+.tempo-btn.btn-newsletter,
+.btn.btn-newsletter,
+input[type="submit"].btn-header.btn-2,
+input[type="button"].btn-header.btn-2,
+input[type="reset"].btn-header.btn-2,
+button.btn-header.btn-2,
+.button.btn-header.btn-2,
+.tempo-btn.btn-header.btn-2,
+.btn.btn-header.btn-2 {
+  background-color: #3a4043;
+  border-color: #3a4043;
+  color: #ffffff;
+}
+input[type="submit"].btn-newsletter:hover,
+input[type="button"].btn-newsletter:hover,
+input[type="reset"].btn-newsletter:hover,
+button.btn-newsletter:hover,
+.button.btn-newsletter:hover,
+.tempo-btn.btn-newsletter:hover,
+.btn.btn-newsletter:hover,
+input[type="submit"].btn-header.btn-2:hover,
+input[type="button"].btn-header.btn-2:hover,
+input[type="reset"].btn-header.btn-2:hover,
+button.btn-header.btn-2:hover,
+.button.btn-header.btn-2:hover,
+.tempo-btn.btn-header.btn-2:hover,
+.btn.btn-header.btn-2:hover,
+input[type="submit"].btn-newsletter:focus,
+input[type="button"].btn-newsletter:focus,
+input[type="reset"].btn-newsletter:focus,
+button.btn-newsletter:focus,
+.button.btn-newsletter:focus,
+.tempo-btn.btn-newsletter:focus,
+.btn.btn-newsletter:focus,
+input[type="submit"].btn-header.btn-2:focus,
+input[type="button"].btn-header.btn-2:focus,
+input[type="reset"].btn-header.btn-2:focus,
+button.btn-header.btn-2:focus,
+.button.btn-header.btn-2:focus,
+.tempo-btn.btn-header.btn-2:focus,
+.btn.btn-header.btn-2:focus,
+input[type="submit"].btn-newsletter.focus,
+input[type="button"].btn-newsletter.focus,
+input[type="reset"].btn-newsletter.focus,
+button.btn-newsletter.focus,
+.button.btn-newsletter.focus,
+.tempo-btn.btn-newsletter.focus,
+.btn.btn-newsletter.focus,
+input[type="submit"].btn-header.btn-2.focus,
+input[type="button"].btn-header.btn-2.focus,
+input[type="reset"].btn-header.btn-2.focus,
+button.btn-header.btn-2.focus,
+.button.btn-header.btn-2.focus,
+.tempo-btn.btn-header.btn-2.focus,
+.btn.btn-header.btn-2.focus,
+input[type="submit"].btn-newsletter:active,
+input[type="button"].btn-newsletter:active,
+input[type="reset"].btn-newsletter:active,
+button.btn-newsletter:active,
+.button.btn-newsletter:active,
+.tempo-btn.btn-newsletter:active,
+.btn.btn-newsletter:active,
+input[type="submit"].btn-header.btn-2:active,
+input[type="button"].btn-header.btn-2:active,
+input[type="reset"].btn-header.btn-2:active,
+button.btn-header.btn-2:active,
+.button.btn-header.btn-2:active,
+.tempo-btn.btn-header.btn-2:active,
+.btn.btn-header.btn-2:active,
+input[type="submit"].btn-newsletter.active,
+input[type="button"].btn-newsletter.active,
+input[type="reset"].btn-newsletter.active,
+button.btn-newsletter.active,
+.button.btn-newsletter.active,
+.tempo-btn.btn-newsletter.active,
+.btn.btn-newsletter.active,
+input[type="submit"].btn-header.btn-2.active,
+input[type="button"].btn-header.btn-2.active,
+input[type="reset"].btn-header.btn-2.active,
+button.btn-header.btn-2.active,
+.button.btn-header.btn-2.active,
+.tempo-btn.btn-header.btn-2.active,
+.btn.btn-header.btn-2.active {
+  background-color: #26ad60;
+  border-color: #26ad60;
+  color: #ffffff;
+}
+input[type="submit"].btn-newsletter:hover:focus,
+input[type="button"].btn-newsletter:hover:focus,
+input[type="reset"].btn-newsletter:hover:focus,
+button.btn-newsletter:hover:focus,
+.button.btn-newsletter:hover:focus,
+.tempo-btn.btn-newsletter:hover:focus,
+.btn.btn-newsletter:hover:focus,
+input[type="submit"].btn-header.btn-2:hover:focus,
+input[type="button"].btn-header.btn-2:hover:focus,
+input[type="reset"].btn-header.btn-2:hover:focus,
+button.btn-header.btn-2:hover:focus,
+.button.btn-header.btn-2:hover:focus,
+.tempo-btn.btn-header.btn-2:hover:focus,
+.btn.btn-header.btn-2:hover:focus,
+input[type="submit"].btn-newsletter:hover.focus,
+input[type="button"].btn-newsletter:hover.focus,
+input[type="reset"].btn-newsletter:hover.focus,
+button.btn-newsletter:hover.focus,
+.button.btn-newsletter:hover.focus,
+.tempo-btn.btn-newsletter:hover.focus,
+.btn.btn-newsletter:hover.focus,
+input[type="submit"].btn-header.btn-2:hover.focus,
+input[type="button"].btn-header.btn-2:hover.focus,
+input[type="reset"].btn-header.btn-2:hover.focus,
+button.btn-header.btn-2:hover.focus,
+.button.btn-header.btn-2:hover.focus,
+.tempo-btn.btn-header.btn-2:hover.focus,
+.btn.btn-header.btn-2:hover.focus,
+input[type="submit"].btn-newsletter:hover:active,
+input[type="button"].btn-newsletter:hover:active,
+input[type="reset"].btn-newsletter:hover:active,
+button.btn-newsletter:hover:active,
+.button.btn-newsletter:hover:active,
+.tempo-btn.btn-newsletter:hover:active,
+.btn.btn-newsletter:hover:active,
+input[type="submit"].btn-header.btn-2:hover:active,
+input[type="button"].btn-header.btn-2:hover:active,
+input[type="reset"].btn-header.btn-2:hover:active,
+button.btn-header.btn-2:hover:active,
+.button.btn-header.btn-2:hover:active,
+.tempo-btn.btn-header.btn-2:hover:active,
+.btn.btn-header.btn-2:hover:active,
+input[type="submit"].btn-newsletter:hover.active,
+input[type="button"].btn-newsletter:hover.active,
+input[type="reset"].btn-newsletter:hover.active,
+button.btn-newsletter:hover.active,
+.button.btn-newsletter:hover.active,
+.tempo-btn.btn-newsletter:hover.active,
+.btn.btn-newsletter:hover.active,
+input[type="submit"].btn-header.btn-2:hover.active,
+input[type="button"].btn-header.btn-2:hover.active,
+input[type="reset"].btn-header.btn-2:hover.active,
+button.btn-header.btn-2:hover.active,
+.button.btn-header.btn-2:hover.active,
+.tempo-btn.btn-header.btn-2:hover.active,
+.btn.btn-header.btn-2:hover.active,
+input[type="submit"].btn-newsletter:focus:active,
+input[type="button"].btn-newsletter:focus:active,
+input[type="reset"].btn-newsletter:focus:active,
+button.btn-newsletter:focus:active,
+.button.btn-newsletter:focus:active,
+.tempo-btn.btn-newsletter:focus:active,
+.btn.btn-newsletter:focus:active,
+input[type="submit"].btn-header.btn-2:focus:active,
+input[type="button"].btn-header.btn-2:focus:active,
+input[type="reset"].btn-header.btn-2:focus:active,
+button.btn-header.btn-2:focus:active,
+.button.btn-header.btn-2:focus:active,
+.tempo-btn.btn-header.btn-2:focus:active,
+.btn.btn-header.btn-2:focus:active,
+input[type="submit"].btn-newsletter:focus.active,
+input[type="button"].btn-newsletter:focus.active,
+input[type="reset"].btn-newsletter:focus.active,
+button.btn-newsletter:focus.active,
+.button.btn-newsletter:focus.active,
+.tempo-btn.btn-newsletter:focus.active,
+.btn.btn-newsletter:focus.active,
+input[type="submit"].btn-header.btn-2:focus.active,
+input[type="button"].btn-header.btn-2:focus.active,
+input[type="reset"].btn-header.btn-2:focus.active,
+button.btn-header.btn-2:focus.active,
+.button.btn-header.btn-2:focus.active,
+.tempo-btn.btn-header.btn-2:focus.active,
+.btn.btn-header.btn-2:focus.active,
+input[type="submit"].btn-newsletter.focus.active,
+input[type="button"].btn-newsletter.focus.active,
+input[type="reset"].btn-newsletter.focus.active,
+button.btn-newsletter.focus.active,
+.button.btn-newsletter.focus.active,
+.tempo-btn.btn-newsletter.focus.active,
+.btn.btn-newsletter.focus.active,
+input[type="submit"].btn-header.btn-2.focus.active,
+input[type="button"].btn-header.btn-2.focus.active,
+input[type="reset"].btn-header.btn-2.focus.active,
+button.btn-header.btn-2.focus.active,
+.button.btn-header.btn-2.focus.active,
+.tempo-btn.btn-header.btn-2.focus.active,
+.btn.btn-header.btn-2.focus.active {
+  background-color: #26ad60;
+  border-color: #26ad60;
+  color: #ffffff;
+}
+input[type="submit"].btn-newsletter.btn-empty,
+input[type="button"].btn-newsletter.btn-empty,
+input[type="reset"].btn-newsletter.btn-empty,
+button.btn-newsletter.btn-empty,
+.button.btn-newsletter.btn-empty,
+.tempo-btn.btn-newsletter.btn-empty,
+.btn.btn-newsletter.btn-empty,
+input[type="submit"].btn-header.btn-2.btn-empty,
+input[type="button"].btn-header.btn-2.btn-empty,
+input[type="reset"].btn-header.btn-2.btn-empty,
+button.btn-header.btn-2.btn-empty,
+.button.btn-header.btn-2.btn-empty,
+.tempo-btn.btn-header.btn-2.btn-empty,
+.btn.btn-header.btn-2.btn-empty {
+  color: #3a4043;
+}
+input[type="submit"].btn-newsletter.btn-empty:hover,
+input[type="button"].btn-newsletter.btn-empty:hover,
+input[type="reset"].btn-newsletter.btn-empty:hover,
+button.btn-newsletter.btn-empty:hover,
+.button.btn-newsletter.btn-empty:hover,
+.tempo-btn.btn-newsletter.btn-empty:hover,
+.btn.btn-newsletter.btn-empty:hover,
+input[type="submit"].btn-header.btn-2.btn-empty:hover,
+input[type="button"].btn-header.btn-2.btn-empty:hover,
+input[type="reset"].btn-header.btn-2.btn-empty:hover,
+button.btn-header.btn-2.btn-empty:hover,
+.button.btn-header.btn-2.btn-empty:hover,
+.tempo-btn.btn-header.btn-2.btn-empty:hover,
+.btn.btn-header.btn-2.btn-empty:hover,
+input[type="submit"].btn-newsletter.btn-empty:focus,
+input[type="button"].btn-newsletter.btn-empty:focus,
+input[type="reset"].btn-newsletter.btn-empty:focus,
+button.btn-newsletter.btn-empty:focus,
+.button.btn-newsletter.btn-empty:focus,
+.tempo-btn.btn-newsletter.btn-empty:focus,
+.btn.btn-newsletter.btn-empty:focus,
+input[type="submit"].btn-header.btn-2.btn-empty:focus,
+input[type="button"].btn-header.btn-2.btn-empty:focus,
+input[type="reset"].btn-header.btn-2.btn-empty:focus,
+button.btn-header.btn-2.btn-empty:focus,
+.button.btn-header.btn-2.btn-empty:focus,
+.tempo-btn.btn-header.btn-2.btn-empty:focus,
+.btn.btn-header.btn-2.btn-empty:focus,
+input[type="submit"].btn-newsletter.btn-empty.focus,
+input[type="button"].btn-newsletter.btn-empty.focus,
+input[type="reset"].btn-newsletter.btn-empty.focus,
+button.btn-newsletter.btn-empty.focus,
+.button.btn-newsletter.btn-empty.focus,
+.tempo-btn.btn-newsletter.btn-empty.focus,
+.btn.btn-newsletter.btn-empty.focus,
+input[type="submit"].btn-header.btn-2.btn-empty.focus,
+input[type="button"].btn-header.btn-2.btn-empty.focus,
+input[type="reset"].btn-header.btn-2.btn-empty.focus,
+button.btn-header.btn-2.btn-empty.focus,
+.button.btn-header.btn-2.btn-empty.focus,
+.tempo-btn.btn-header.btn-2.btn-empty.focus,
+.btn.btn-header.btn-2.btn-empty.focus,
+input[type="submit"].btn-newsletter.btn-empty:active,
+input[type="button"].btn-newsletter.btn-empty:active,
+input[type="reset"].btn-newsletter.btn-empty:active,
+button.btn-newsletter.btn-empty:active,
+.button.btn-newsletter.btn-empty:active,
+.tempo-btn.btn-newsletter.btn-empty:active,
+.btn.btn-newsletter.btn-empty:active,
+input[type="submit"].btn-header.btn-2.btn-empty:active,
+input[type="button"].btn-header.btn-2.btn-empty:active,
+input[type="reset"].btn-header.btn-2.btn-empty:active,
+button.btn-header.btn-2.btn-empty:active,
+.button.btn-header.btn-2.btn-empty:active,
+.tempo-btn.btn-header.btn-2.btn-empty:active,
+.btn.btn-header.btn-2.btn-empty:active,
+input[type="submit"].btn-newsletter.btn-empty.active,
+input[type="button"].btn-newsletter.btn-empty.active,
+input[type="reset"].btn-newsletter.btn-empty.active,
+button.btn-newsletter.btn-empty.active,
+.button.btn-newsletter.btn-empty.active,
+.tempo-btn.btn-newsletter.btn-empty.active,
+.btn.btn-newsletter.btn-empty.active,
+input[type="submit"].btn-header.btn-2.btn-empty.active,
+input[type="button"].btn-header.btn-2.btn-empty.active,
+input[type="reset"].btn-header.btn-2.btn-empty.active,
+button.btn-header.btn-2.btn-empty.active,
+.button.btn-header.btn-2.btn-empty.active,
+.tempo-btn.btn-header.btn-2.btn-empty.active,
+.btn.btn-header.btn-2.btn-empty.active {
+  background-color: #26ad60;
+  border-color: #26ad60;
+  color: #ffffff;
+}
+input[type="submit"].btn-newsletter.btn-empty:hover:focus,
+input[type="button"].btn-newsletter.btn-empty:hover:focus,
+input[type="reset"].btn-newsletter.btn-empty:hover:focus,
+button.btn-newsletter.btn-empty:hover:focus,
+.button.btn-newsletter.btn-empty:hover:focus,
+.tempo-btn.btn-newsletter.btn-empty:hover:focus,
+.btn.btn-newsletter.btn-empty:hover:focus,
+input[type="submit"].btn-header.btn-2.btn-empty:hover:focus,
+input[type="button"].btn-header.btn-2.btn-empty:hover:focus,
+input[type="reset"].btn-header.btn-2.btn-empty:hover:focus,
+button.btn-header.btn-2.btn-empty:hover:focus,
+.button.btn-header.btn-2.btn-empty:hover:focus,
+.tempo-btn.btn-header.btn-2.btn-empty:hover:focus,
+.btn.btn-header.btn-2.btn-empty:hover:focus,
+input[type="submit"].btn-newsletter.btn-empty:hover.focus,
+input[type="button"].btn-newsletter.btn-empty:hover.focus,
+input[type="reset"].btn-newsletter.btn-empty:hover.focus,
+button.btn-newsletter.btn-empty:hover.focus,
+.button.btn-newsletter.btn-empty:hover.focus,
+.tempo-btn.btn-newsletter.btn-empty:hover.focus,
+.btn.btn-newsletter.btn-empty:hover.focus,
+input[type="submit"].btn-header.btn-2.btn-empty:hover.focus,
+input[type="button"].btn-header.btn-2.btn-empty:hover.focus,
+input[type="reset"].btn-header.btn-2.btn-empty:hover.focus,
+button.btn-header.btn-2.btn-empty:hover.focus,
+.button.btn-header.btn-2.btn-empty:hover.focus,
+.tempo-btn.btn-header.btn-2.btn-empty:hover.focus,
+.btn.btn-header.btn-2.btn-empty:hover.focus,
+input[type="submit"].btn-newsletter.btn-empty:hover:active,
+input[type="button"].btn-newsletter.btn-empty:hover:active,
+input[type="reset"].btn-newsletter.btn-empty:hover:active,
+button.btn-newsletter.btn-empty:hover:active,
+.button.btn-newsletter.btn-empty:hover:active,
+.tempo-btn.btn-newsletter.btn-empty:hover:active,
+.btn.btn-newsletter.btn-empty:hover:active,
+input[type="submit"].btn-header.btn-2.btn-empty:hover:active,
+input[type="button"].btn-header.btn-2.btn-empty:hover:active,
+input[type="reset"].btn-header.btn-2.btn-empty:hover:active,
+button.btn-header.btn-2.btn-empty:hover:active,
+.button.btn-header.btn-2.btn-empty:hover:active,
+.tempo-btn.btn-header.btn-2.btn-empty:hover:active,
+.btn.btn-header.btn-2.btn-empty:hover:active,
+input[type="submit"].btn-newsletter.btn-empty:hover.active,
+input[type="button"].btn-newsletter.btn-empty:hover.active,
+input[type="reset"].btn-newsletter.btn-empty:hover.active,
+button.btn-newsletter.btn-empty:hover.active,
+.button.btn-newsletter.btn-empty:hover.active,
+.tempo-btn.btn-newsletter.btn-empty:hover.active,
+.btn.btn-newsletter.btn-empty:hover.active,
+input[type="submit"].btn-header.btn-2.btn-empty:hover.active,
+input[type="button"].btn-header.btn-2.btn-empty:hover.active,
+input[type="reset"].btn-header.btn-2.btn-empty:hover.active,
+button.btn-header.btn-2.btn-empty:hover.active,
+.button.btn-header.btn-2.btn-empty:hover.active,
+.tempo-btn.btn-header.btn-2.btn-empty:hover.active,
+.btn.btn-header.btn-2.btn-empty:hover.active,
+input[type="submit"].btn-newsletter.btn-empty:focus:active,
+input[type="button"].btn-newsletter.btn-empty:focus:active,
+input[type="reset"].btn-newsletter.btn-empty:focus:active,
+button.btn-newsletter.btn-empty:focus:active,
+.button.btn-newsletter.btn-empty:focus:active,
+.tempo-btn.btn-newsletter.btn-empty:focus:active,
+.btn.btn-newsletter.btn-empty:focus:active,
+input[type="submit"].btn-header.btn-2.btn-empty:focus:active,
+input[type="button"].btn-header.btn-2.btn-empty:focus:active,
+input[type="reset"].btn-header.btn-2.btn-empty:focus:active,
+button.btn-header.btn-2.btn-empty:focus:active,
+.button.btn-header.btn-2.btn-empty:focus:active,
+.tempo-btn.btn-header.btn-2.btn-empty:focus:active,
+.btn.btn-header.btn-2.btn-empty:focus:active,
+input[type="submit"].btn-newsletter.btn-empty:focus.active,
+input[type="button"].btn-newsletter.btn-empty:focus.active,
+input[type="reset"].btn-newsletter.btn-empty:focus.active,
+button.btn-newsletter.btn-empty:focus.active,
+.button.btn-newsletter.btn-empty:focus.active,
+.tempo-btn.btn-newsletter.btn-empty:focus.active,
+.btn.btn-newsletter.btn-empty:focus.active,
+input[type="submit"].btn-header.btn-2.btn-empty:focus.active,
+input[type="button"].btn-header.btn-2.btn-empty:focus.active,
+input[type="reset"].btn-header.btn-2.btn-empty:focus.active,
+button.btn-header.btn-2.btn-empty:focus.active,
+.button.btn-header.btn-2.btn-empty:focus.active,
+.tempo-btn.btn-header.btn-2.btn-empty:focus.active,
+.btn.btn-header.btn-2.btn-empty:focus.active,
+input[type="submit"].btn-newsletter.btn-empty.focus.active,
+input[type="button"].btn-newsletter.btn-empty.focus.active,
+input[type="reset"].btn-newsletter.btn-empty.focus.active,
+button.btn-newsletter.btn-empty.focus.active,
+.button.btn-newsletter.btn-empty.focus.active,
+.tempo-btn.btn-newsletter.btn-empty.focus.active,
+.btn.btn-newsletter.btn-empty.focus.active,
+input[type="submit"].btn-header.btn-2.btn-empty.focus.active,
+input[type="button"].btn-header.btn-2.btn-empty.focus.active,
+input[type="reset"].btn-header.btn-2.btn-empty.focus.active,
+button.btn-header.btn-2.btn-empty.focus.active,
+.button.btn-header.btn-2.btn-empty.focus.active,
+.tempo-btn.btn-header.btn-2.btn-empty.focus.active,
+.btn.btn-header.btn-2.btn-empty.focus.active {
+  background-color: #26ad60;
+  border-color: #26ad60;
+  color: #ffffff;
+}
+input[type="submit"].btn-newsletter.btn-hover-empty:hover,
+input[type="button"].btn-newsletter.btn-hover-empty:hover,
+input[type="reset"].btn-newsletter.btn-hover-empty:hover,
+button.btn-newsletter.btn-hover-empty:hover,
+.button.btn-newsletter.btn-hover-empty:hover,
+.tempo-btn.btn-newsletter.btn-hover-empty:hover,
+.btn.btn-newsletter.btn-hover-empty:hover,
+input[type="submit"].btn-header.btn-2.btn-hover-empty:hover,
+input[type="button"].btn-header.btn-2.btn-hover-empty:hover,
+input[type="reset"].btn-header.btn-2.btn-hover-empty:hover,
+button.btn-header.btn-2.btn-hover-empty:hover,
+.button.btn-header.btn-2.btn-hover-empty:hover,
+.tempo-btn.btn-header.btn-2.btn-hover-empty:hover,
+.btn.btn-header.btn-2.btn-hover-empty:hover,
+input[type="submit"].btn-newsletter.btn-hover-empty:focus,
+input[type="button"].btn-newsletter.btn-hover-empty:focus,
+input[type="reset"].btn-newsletter.btn-hover-empty:focus,
+button.btn-newsletter.btn-hover-empty:focus,
+.button.btn-newsletter.btn-hover-empty:focus,
+.tempo-btn.btn-newsletter.btn-hover-empty:focus,
+.btn.btn-newsletter.btn-hover-empty:focus,
+input[type="submit"].btn-header.btn-2.btn-hover-empty:focus,
+input[type="button"].btn-header.btn-2.btn-hover-empty:focus,
+input[type="reset"].btn-header.btn-2.btn-hover-empty:focus,
+button.btn-header.btn-2.btn-hover-empty:focus,
+.button.btn-header.btn-2.btn-hover-empty:focus,
+.tempo-btn.btn-header.btn-2.btn-hover-empty:focus,
+.btn.btn-header.btn-2.btn-hover-empty:focus,
+input[type="submit"].btn-newsletter.btn-hover-empty.focus,
+input[type="button"].btn-newsletter.btn-hover-empty.focus,
+input[type="reset"].btn-newsletter.btn-hover-empty.focus,
+button.btn-newsletter.btn-hover-empty.focus,
+.button.btn-newsletter.btn-hover-empty.focus,
+.tempo-btn.btn-newsletter.btn-hover-empty.focus,
+.btn.btn-newsletter.btn-hover-empty.focus,
+input[type="submit"].btn-header.btn-2.btn-hover-empty.focus,
+input[type="button"].btn-header.btn-2.btn-hover-empty.focus,
+input[type="reset"].btn-header.btn-2.btn-hover-empty.focus,
+button.btn-header.btn-2.btn-hover-empty.focus,
+.button.btn-header.btn-2.btn-hover-empty.focus,
+.tempo-btn.btn-header.btn-2.btn-hover-empty.focus,
+.btn.btn-header.btn-2.btn-hover-empty.focus,
+input[type="submit"].btn-newsletter.btn-hover-empty:active,
+input[type="button"].btn-newsletter.btn-hover-empty:active,
+input[type="reset"].btn-newsletter.btn-hover-empty:active,
+button.btn-newsletter.btn-hover-empty:active,
+.button.btn-newsletter.btn-hover-empty:active,
+.tempo-btn.btn-newsletter.btn-hover-empty:active,
+.btn.btn-newsletter.btn-hover-empty:active,
+input[type="submit"].btn-header.btn-2.btn-hover-empty:active,
+input[type="button"].btn-header.btn-2.btn-hover-empty:active,
+input[type="reset"].btn-header.btn-2.btn-hover-empty:active,
+button.btn-header.btn-2.btn-hover-empty:active,
+.button.btn-header.btn-2.btn-hover-empty:active,
+.tempo-btn.btn-header.btn-2.btn-hover-empty:active,
+.btn.btn-header.btn-2.btn-hover-empty:active,
+input[type="submit"].btn-newsletter.btn-hover-empty.active,
+input[type="button"].btn-newsletter.btn-hover-empty.active,
+input[type="reset"].btn-newsletter.btn-hover-empty.active,
+button.btn-newsletter.btn-hover-empty.active,
+.button.btn-newsletter.btn-hover-empty.active,
+.tempo-btn.btn-newsletter.btn-hover-empty.active,
+.btn.btn-newsletter.btn-hover-empty.active,
+input[type="submit"].btn-header.btn-2.btn-hover-empty.active,
+input[type="button"].btn-header.btn-2.btn-hover-empty.active,
+input[type="reset"].btn-header.btn-2.btn-hover-empty.active,
+button.btn-header.btn-2.btn-hover-empty.active,
+.button.btn-header.btn-2.btn-hover-empty.active,
+.tempo-btn.btn-header.btn-2.btn-hover-empty.active,
+.btn.btn-header.btn-2.btn-hover-empty.active {
+  background-color: transparent;
+  border-color: #26ad60;
+  color: #26ad60;
+}
+input[type="submit"].btn-newsletter.btn-hover-empty:hover:focus,
+input[type="button"].btn-newsletter.btn-hover-empty:hover:focus,
+input[type="reset"].btn-newsletter.btn-hover-empty:hover:focus,
+button.btn-newsletter.btn-hover-empty:hover:focus,
+.button.btn-newsletter.btn-hover-empty:hover:focus,
+.tempo-btn.btn-newsletter.btn-hover-empty:hover:focus,
+.btn.btn-newsletter.btn-hover-empty:hover:focus,
+input[type="submit"].btn-header.btn-2.btn-hover-empty:hover:focus,
+input[type="button"].btn-header.btn-2.btn-hover-empty:hover:focus,
+input[type="reset"].btn-header.btn-2.btn-hover-empty:hover:focus,
+button.btn-header.btn-2.btn-hover-empty:hover:focus,
+.button.btn-header.btn-2.btn-hover-empty:hover:focus,
+.tempo-btn.btn-header.btn-2.btn-hover-empty:hover:focus,
+.btn.btn-header.btn-2.btn-hover-empty:hover:focus,
+input[type="submit"].btn-newsletter.btn-hover-empty:hover.focus,
+input[type="button"].btn-newsletter.btn-hover-empty:hover.focus,
+input[type="reset"].btn-newsletter.btn-hover-empty:hover.focus,
+button.btn-newsletter.btn-hover-empty:hover.focus,
+.button.btn-newsletter.btn-hover-empty:hover.focus,
+.tempo-btn.btn-newsletter.btn-hover-empty:hover.focus,
+.btn.btn-newsletter.btn-hover-empty:hover.focus,
+input[type="submit"].btn-header.btn-2.btn-hover-empty:hover.focus,
+input[type="button"].btn-header.btn-2.btn-hover-empty:hover.focus,
+input[type="reset"].btn-header.btn-2.btn-hover-empty:hover.focus,
+button.btn-header.btn-2.btn-hover-empty:hover.focus,
+.button.btn-header.btn-2.btn-hover-empty:hover.focus,
+.tempo-btn.btn-header.btn-2.btn-hover-empty:hover.focus,
+.btn.btn-header.btn-2.btn-hover-empty:hover.focus,
+input[type="submit"].btn-newsletter.btn-hover-empty:hover:active,
+input[type="button"].btn-newsletter.btn-hover-empty:hover:active,
+input[type="reset"].btn-newsletter.btn-hover-empty:hover:active,
+button.btn-newsletter.btn-hover-empty:hover:active,
+.button.btn-newsletter.btn-hover-empty:hover:active,
+.tempo-btn.btn-newsletter.btn-hover-empty:hover:active,
+.btn.btn-newsletter.btn-hover-empty:hover:active,
+input[type="submit"].btn-header.btn-2.btn-hover-empty:hover:active,
+input[type="button"].btn-header.btn-2.btn-hover-empty:hover:active,
+input[type="reset"].btn-header.btn-2.btn-hover-empty:hover:active,
+button.btn-header.btn-2.btn-hover-empty:hover:active,
+.button.btn-header.btn-2.btn-hover-empty:hover:active,
+.tempo-btn.btn-header.btn-2.btn-hover-empty:hover:active,
+.btn.btn-header.btn-2.btn-hover-empty:hover:active,
+input[type="submit"].btn-newsletter.btn-hover-empty:hover.active,
+input[type="button"].btn-newsletter.btn-hover-empty:hover.active,
+input[type="reset"].btn-newsletter.btn-hover-empty:hover.active,
+button.btn-newsletter.btn-hover-empty:hover.active,
+.button.btn-newsletter.btn-hover-empty:hover.active,
+.tempo-btn.btn-newsletter.btn-hover-empty:hover.active,
+.btn.btn-newsletter.btn-hover-empty:hover.active,
+input[type="submit"].btn-header.btn-2.btn-hover-empty:hover.active,
+input[type="button"].btn-header.btn-2.btn-hover-empty:hover.active,
+input[type="reset"].btn-header.btn-2.btn-hover-empty:hover.active,
+button.btn-header.btn-2.btn-hover-empty:hover.active,
+.button.btn-header.btn-2.btn-hover-empty:hover.active,
+.tempo-btn.btn-header.btn-2.btn-hover-empty:hover.active,
+.btn.btn-header.btn-2.btn-hover-empty:hover.active,
+input[type="submit"].btn-newsletter.btn-hover-empty:focus:active,
+input[type="button"].btn-newsletter.btn-hover-empty:focus:active,
+input[type="reset"].btn-newsletter.btn-hover-empty:focus:active,
+button.btn-newsletter.btn-hover-empty:focus:active,
+.button.btn-newsletter.btn-hover-empty:focus:active,
+.tempo-btn.btn-newsletter.btn-hover-empty:focus:active,
+.btn.btn-newsletter.btn-hover-empty:focus:active,
+input[type="submit"].btn-header.btn-2.btn-hover-empty:focus:active,
+input[type="button"].btn-header.btn-2.btn-hover-empty:focus:active,
+input[type="reset"].btn-header.btn-2.btn-hover-empty:focus:active,
+button.btn-header.btn-2.btn-hover-empty:focus:active,
+.button.btn-header.btn-2.btn-hover-empty:focus:active,
+.tempo-btn.btn-header.btn-2.btn-hover-empty:focus:active,
+.btn.btn-header.btn-2.btn-hover-empty:focus:active,
+input[type="submit"].btn-newsletter.btn-hover-empty:focus.active,
+input[type="button"].btn-newsletter.btn-hover-empty:focus.active,
+input[type="reset"].btn-newsletter.btn-hover-empty:focus.active,
+button.btn-newsletter.btn-hover-empty:focus.active,
+.button.btn-newsletter.btn-hover-empty:focus.active,
+.tempo-btn.btn-newsletter.btn-hover-empty:focus.active,
+.btn.btn-newsletter.btn-hover-empty:focus.active,
+input[type="submit"].btn-header.btn-2.btn-hover-empty:focus.active,
+input[type="button"].btn-header.btn-2.btn-hover-empty:focus.active,
+input[type="reset"].btn-header.btn-2.btn-hover-empty:focus.active,
+button.btn-header.btn-2.btn-hover-empty:focus.active,
+.button.btn-header.btn-2.btn-hover-empty:focus.active,
+.tempo-btn.btn-header.btn-2.btn-hover-empty:focus.active,
+.btn.btn-header.btn-2.btn-hover-empty:focus.active,
+input[type="submit"].btn-newsletter.btn-hover-empty.focus.active,
+input[type="button"].btn-newsletter.btn-hover-empty.focus.active,
+input[type="reset"].btn-newsletter.btn-hover-empty.focus.active,
+button.btn-newsletter.btn-hover-empty.focus.active,
+.button.btn-newsletter.btn-hover-empty.focus.active,
+.tempo-btn.btn-newsletter.btn-hover-empty.focus.active,
+.btn.btn-newsletter.btn-hover-empty.focus.active,
+input[type="submit"].btn-header.btn-2.btn-hover-empty.focus.active,
+input[type="button"].btn-header.btn-2.btn-hover-empty.focus.active,
+input[type="reset"].btn-header.btn-2.btn-hover-empty.focus.active,
+button.btn-header.btn-2.btn-hover-empty.focus.active,
+.button.btn-header.btn-2.btn-hover-empty.focus.active,
+.tempo-btn.btn-header.btn-2.btn-hover-empty.focus.active,
+.btn.btn-header.btn-2.btn-hover-empty.focus.active {
+  background-color: transparent;
+  border-color: #26ad60;
+  color: #26ad60;
+}
+input[type="submit"].btn-newsletter.btn-empty,
+input[type="button"].btn-newsletter.btn-empty,
+input[type="reset"].btn-newsletter.btn-empty,
+button.btn-newsletter.btn-empty,
+.button.btn-newsletter.btn-empty,
+.tempo-btn.btn-newsletter.btn-empty,
+.btn.btn-newsletter.btn-empty,
+input[type="submit"].btn-header.btn-2.btn-empty,
+input[type="button"].btn-header.btn-2.btn-empty,
+input[type="reset"].btn-header.btn-2.btn-empty,
+button.btn-header.btn-2.btn-empty,
+.button.btn-header.btn-2.btn-empty,
+.tempo-btn.btn-header.btn-2.btn-empty,
+.btn.btn-header.btn-2.btn-empty {
+  background-color: transparent;
+}
+input[type="submit"].btn-newsletter:hover.btn-hover-empty,
+input[type="button"].btn-newsletter:hover.btn-hover-empty,
+input[type="reset"].btn-newsletter:hover.btn-hover-empty,
+button.btn-newsletter:hover.btn-hover-empty,
+.button.btn-newsletter:hover.btn-hover-empty,
+.tempo-btn.btn-newsletter:hover.btn-hover-empty,
+.btn.btn-newsletter:hover.btn-hover-empty,
+input[type="submit"].btn-header.btn-2:hover.btn-hover-empty,
+input[type="button"].btn-header.btn-2:hover.btn-hover-empty,
+input[type="reset"].btn-header.btn-2:hover.btn-hover-empty,
+button.btn-header.btn-2:hover.btn-hover-empty,
+.button.btn-header.btn-2:hover.btn-hover-empty,
+.tempo-btn.btn-header.btn-2:hover.btn-hover-empty,
+.btn.btn-header.btn-2:hover.btn-hover-empty {
+  background-color: transparent;
+}
+input[type="submit"].btn-empty,
+input[type="button"].btn-empty,
+input[type="reset"].btn-empty,
+button.btn-empty,
+.button.btn-empty,
+.tempo-btn.btn-empty,
+.btn.btn-empty,
+input[type="submit"].btn-hover-empty,
+input[type="button"].btn-hover-empty,
+input[type="reset"].btn-hover-empty,
+button.btn-hover-empty,
+.button.btn-hover-empty,
+.tempo-btn.btn-hover-empty,
+.btn.btn-hover-empty {
+  border-width: 2px;
+  border-style: solid;
+  padding: 9px 28px;
+}
+input[type="submit"].btn-empty.small,
+input[type="button"].btn-empty.small,
+input[type="reset"].btn-empty.small,
+button.btn-empty.small,
+.button.btn-empty.small,
+.tempo-btn.btn-empty.small,
+.btn.btn-empty.small,
+input[type="submit"].btn-hover-empty.small,
+input[type="button"].btn-hover-empty.small,
+input[type="reset"].btn-hover-empty.small,
+button.btn-hover-empty.small,
+.button.btn-hover-empty.small,
+.tempo-btn.btn-hover-empty.small,
+.btn.btn-hover-empty.small {
+  padding: 3px 18px;
+}
+input[type="submit"].btn-empty.large,
+input[type="button"].btn-empty.large,
+input[type="reset"].btn-empty.large,
+button.btn-empty.large,
+.button.btn-empty.large,
+.tempo-btn.btn-empty.large,
+.btn.btn-empty.large,
+input[type="submit"].btn-hover-empty.large,
+input[type="button"].btn-hover-empty.large,
+input[type="reset"].btn-hover-empty.large,
+button.btn-hover-empty.large,
+.button.btn-hover-empty.large,
+.tempo-btn.btn-hover-empty.large,
+.btn.btn-hover-empty.large {
+  padding: 10px 30px;
+}
+input[type="submit"]:not(.btn-empty):not(.btn-hover-empty),
+input[type="button"]:not(.btn-empty):not(.btn-hover-empty),
+input[type="reset"]:not(.btn-empty):not(.btn-hover-empty),
+button:not(.btn-empty):not(.btn-hover-empty),
+.button:not(.btn-empty):not(.btn-hover-empty),
+.tempo-btn:not(.btn-empty):not(.btn-hover-empty),
+.btn:not(.btn-empty):not(.btn-hover-empty) {
+  -webkit-box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.2);
+}
+input[type="submit"]:not(.btn-empty):not(.btn-hover-empty).btn-default,
+input[type="button"]:not(.btn-empty):not(.btn-hover-empty).btn-default,
+input[type="reset"]:not(.btn-empty):not(.btn-hover-empty).btn-default,
+button:not(.btn-empty):not(.btn-hover-empty).btn-default,
+.button:not(.btn-empty):not(.btn-hover-empty).btn-default,
+.tempo-btn:not(.btn-empty):not(.btn-hover-empty).btn-default,
+.btn:not(.btn-empty):not(.btn-hover-empty).btn-default,
+input[type="submit"]:not(.btn-empty):not(.btn-hover-empty).btn-lime,
+input[type="button"]:not(.btn-empty):not(.btn-hover-empty).btn-lime,
+input[type="reset"]:not(.btn-empty):not(.btn-hover-empty).btn-lime,
+button:not(.btn-empty):not(.btn-hover-empty).btn-lime,
+.button:not(.btn-empty):not(.btn-hover-empty).btn-lime,
+.tempo-btn:not(.btn-empty):not(.btn-hover-empty).btn-lime,
+.btn:not(.btn-empty):not(.btn-hover-empty).btn-lime,
+input[type="submit"]:not(.btn-empty):not(.btn-hover-empty).btn-yellow,
+input[type="button"]:not(.btn-empty):not(.btn-hover-empty).btn-yellow,
+input[type="reset"]:not(.btn-empty):not(.btn-hover-empty).btn-yellow,
+button:not(.btn-empty):not(.btn-hover-empty).btn-yellow,
+.button:not(.btn-empty):not(.btn-hover-empty).btn-yellow,
+.tempo-btn:not(.btn-empty):not(.btn-hover-empty).btn-yellow,
+.btn:not(.btn-empty):not(.btn-hover-empty).btn-yellow,
+input[type="submit"]:not(.btn-empty):not(.btn-hover-empty).btn-amber,
+input[type="button"]:not(.btn-empty):not(.btn-hover-empty).btn-amber,
+input[type="reset"]:not(.btn-empty):not(.btn-hover-empty).btn-amber,
+button:not(.btn-empty):not(.btn-hover-empty).btn-amber,
+.button:not(.btn-empty):not(.btn-hover-empty).btn-amber,
+.tempo-btn:not(.btn-empty):not(.btn-hover-empty).btn-amber,
+.btn:not(.btn-empty):not(.btn-hover-empty).btn-amber {
+  -webkit-box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.1);
+}
+input[type="submit"] i,
+input[type="button"] i,
+input[type="reset"] i,
+button i,
+.button i,
+.tempo-btn i,
+.btn i {
+  line-height: 27px;
+}
+.yith-wcwl-add-button a.add_to_wishlist,
+a.added_to_cart.wc-forward {
+  display: inline-block;
+  border: none;
+  font-size: 13px;
+  line-height: 28px;
+  margin: 0px;
+  padding: 11px 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #3a4043;
+  border-color: #3a4043;
+  color: #ffffff;
+  -webkit-box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.yith-wcwl-add-button a.add_to_wishlist:hover,
+a.added_to_cart.wc-forward:hover,
+.yith-wcwl-add-button a.add_to_wishlist:focus,
+a.added_to_cart.wc-forward:focus,
+.yith-wcwl-add-button a.add_to_wishlist.focus,
+a.added_to_cart.wc-forward.focus,
+.yith-wcwl-add-button a.add_to_wishlist:active,
+a.added_to_cart.wc-forward:active,
+.yith-wcwl-add-button a.add_to_wishlist.active,
+a.added_to_cart.wc-forward.active {
+  background-color: #26ad60;
+  border-color: #26ad60;
+  color: #ffffff;
+}
+.yith-wcwl-add-button a.add_to_wishlist:hover:focus,
+a.added_to_cart.wc-forward:hover:focus,
+.yith-wcwl-add-button a.add_to_wishlist:hover.focus,
+a.added_to_cart.wc-forward:hover.focus,
+.yith-wcwl-add-button a.add_to_wishlist:hover:active,
+a.added_to_cart.wc-forward:hover:active,
+.yith-wcwl-add-button a.add_to_wishlist:hover.active,
+a.added_to_cart.wc-forward:hover.active,
+.yith-wcwl-add-button a.add_to_wishlist:focus:active,
+a.added_to_cart.wc-forward:focus:active,
+.yith-wcwl-add-button a.add_to_wishlist:focus.active,
+a.added_to_cart.wc-forward:focus.active,
+.yith-wcwl-add-button a.add_to_wishlist.focus.active,
+a.added_to_cart.wc-forward.focus.active {
+  background-color: #26ad60;
+  border-color: #26ad60;
+  color: #ffffff;
+}
+.yith-wcwl-add-button a.add_to_wishlist.btn-empty,
+a.added_to_cart.wc-forward.btn-empty {
+  color: #3a4043;
+}
+.yith-wcwl-add-button a.add_to_wishlist.btn-empty:hover,
+a.added_to_cart.wc-forward.btn-empty:hover,
+.yith-wcwl-add-button a.add_to_wishlist.btn-empty:focus,
+a.added_to_cart.wc-forward.btn-empty:focus,
+.yith-wcwl-add-button a.add_to_wishlist.btn-empty.focus,
+a.added_to_cart.wc-forward.btn-empty.focus,
+.yith-wcwl-add-button a.add_to_wishlist.btn-empty:active,
+a.added_to_cart.wc-forward.btn-empty:active,
+.yith-wcwl-add-button a.add_to_wishlist.btn-empty.active,
+a.added_to_cart.wc-forward.btn-empty.active {
+  background-color: #26ad60;
+  border-color: #26ad60;
+  color: #ffffff;
+}
+.yith-wcwl-add-button a.add_to_wishlist.btn-empty:hover:focus,
+a.added_to_cart.wc-forward.btn-empty:hover:focus,
+.yith-wcwl-add-button a.add_to_wishlist.btn-empty:hover.focus,
+a.added_to_cart.wc-forward.btn-empty:hover.focus,
+.yith-wcwl-add-button a.add_to_wishlist.btn-empty:hover:active,
+a.added_to_cart.wc-forward.btn-empty:hover:active,
+.yith-wcwl-add-button a.add_to_wishlist.btn-empty:hover.active,
+a.added_to_cart.wc-forward.btn-empty:hover.active,
+.yith-wcwl-add-button a.add_to_wishlist.btn-empty:focus:active,
+a.added_to_cart.wc-forward.btn-empty:focus:active,
+.yith-wcwl-add-button a.add_to_wishlist.btn-empty:focus.active,
+a.added_to_cart.wc-forward.btn-empty:focus.active,
+.yith-wcwl-add-button a.add_to_wishlist.btn-empty.focus.active,
+a.added_to_cart.wc-forward.btn-empty.focus.active {
+  background-color: #26ad60;
+  border-color: #26ad60;
+  color: #ffffff;
+}
+.yith-wcwl-add-button a.add_to_wishlist.btn-hover-empty:hover,
+a.added_to_cart.wc-forward.btn-hover-empty:hover,
+.yith-wcwl-add-button a.add_to_wishlist.btn-hover-empty:focus,
+a.added_to_cart.wc-forward.btn-hover-empty:focus,
+.yith-wcwl-add-button a.add_to_wishlist.btn-hover-empty.focus,
+a.added_to_cart.wc-forward.btn-hover-empty.focus,
+.yith-wcwl-add-button a.add_to_wishlist.btn-hover-empty:active,
+a.added_to_cart.wc-forward.btn-hover-empty:active,
+.yith-wcwl-add-button a.add_to_wishlist.btn-hover-empty.active,
+a.added_to_cart.wc-forward.btn-hover-empty.active {
+  background-color: transparent;
+  border-color: #26ad60;
+  color: #26ad60;
+}
+.yith-wcwl-add-button a.add_to_wishlist.btn-hover-empty:hover:focus,
+a.added_to_cart.wc-forward.btn-hover-empty:hover:focus,
+.yith-wcwl-add-button a.add_to_wishlist.btn-hover-empty:hover.focus,
+a.added_to_cart.wc-forward.btn-hover-empty:hover.focus,
+.yith-wcwl-add-button a.add_to_wishlist.btn-hover-empty:hover:active,
+a.added_to_cart.wc-forward.btn-hover-empty:hover:active,
+.yith-wcwl-add-button a.add_to_wishlist.btn-hover-empty:hover.active,
+a.added_to_cart.wc-forward.btn-hover-empty:hover.active,
+.yith-wcwl-add-button a.add_to_wishlist.btn-hover-empty:focus:active,
+a.added_to_cart.wc-forward.btn-hover-empty:focus:active,
+.yith-wcwl-add-button a.add_to_wishlist.btn-hover-empty:focus.active,
+a.added_to_cart.wc-forward.btn-hover-empty:focus.active,
+.yith-wcwl-add-button a.add_to_wishlist.btn-hover-empty.focus.active,
+a.added_to_cart.wc-forward.btn-hover-empty.focus.active {
+  background-color: transparent;
+  border-color: #26ad60;
+  color: #26ad60;
+}
+#review_form #respond p.form-submit input[type="submit"] {
+  font-size: 13px;
+  background-color: #26ad60;
+  border-color: #26ad60;
+  color: #ffffff;
+  -webkit-box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.1);
+}
+#review_form #respond p.form-submit input[type="submit"]:hover,
+#review_form #respond p.form-submit input[type="submit"]:focus,
+#review_form #respond p.form-submit input[type="submit"].focus,
+#review_form #respond p.form-submit input[type="submit"]:active,
+#review_form #respond p.form-submit input[type="submit"].active {
+  background-color: #3a4043;
+  border-color: #3a4043;
+  color: #ffffff;
+}
+#review_form #respond p.form-submit input[type="submit"]:hover:focus,
+#review_form #respond p.form-submit input[type="submit"]:hover.focus,
+#review_form #respond p.form-submit input[type="submit"]:hover:active,
+#review_form #respond p.form-submit input[type="submit"]:hover.active,
+#review_form #respond p.form-submit input[type="submit"]:focus:active,
+#review_form #respond p.form-submit input[type="submit"]:focus.active,
+#review_form #respond p.form-submit input[type="submit"].focus.active {
+  background-color: #3a4043;
+  border-color: #3a4043;
+  color: #ffffff;
+}
+#review_form #respond p.form-submit input[type="submit"].btn-empty {
+  color: #26ad60;
+}
+#review_form #respond p.form-submit input[type="submit"].btn-empty:hover,
+#review_form #respond p.form-submit input[type="submit"].btn-empty:focus,
+#review_form #respond p.form-submit input[type="submit"].btn-empty.focus,
+#review_form #respond p.form-submit input[type="submit"].btn-empty:active,
+#review_form #respond p.form-submit input[type="submit"].btn-empty.active {
+  background-color: #3a4043;
+  border-color: #3a4043;
+  color: #ffffff;
+}
+#review_form #respond p.form-submit input[type="submit"].btn-empty:hover:focus,
+#review_form #respond p.form-submit input[type="submit"].btn-empty:hover.focus,
+#review_form #respond p.form-submit input[type="submit"].btn-empty:hover:active,
+#review_form #respond p.form-submit input[type="submit"].btn-empty:hover.active,
+#review_form #respond p.form-submit input[type="submit"].btn-empty:focus:active,
+#review_form #respond p.form-submit input[type="submit"].btn-empty:focus.active,
+#review_form #respond p.form-submit input[type="submit"].btn-empty.focus.active {
+  background-color: #3a4043;
+  border-color: #3a4043;
+  color: #ffffff;
+}
+#review_form #respond p.form-submit input[type="submit"].btn-hover-empty:hover,
+#review_form #respond p.form-submit input[type="submit"].btn-hover-empty:focus,
+#review_form #respond p.form-submit input[type="submit"].btn-hover-empty.focus,
+#review_form #respond p.form-submit input[type="submit"].btn-hover-empty:active,
+#review_form #respond p.form-submit input[type="submit"].btn-hover-empty.active {
+  background-color: transparent;
+  border-color: #3a4043;
+  color: #3a4043;
+}
+#review_form #respond p.form-submit input[type="submit"].btn-hover-empty:hover:focus,
+#review_form #respond p.form-submit input[type="submit"].btn-hover-empty:hover.focus,
+#review_form #respond p.form-submit input[type="submit"].btn-hover-empty:hover:active,
+#review_form #respond p.form-submit input[type="submit"].btn-hover-empty:hover.active,
+#review_form #respond p.form-submit input[type="submit"].btn-hover-empty:focus:active,
+#review_form #respond p.form-submit input[type="submit"].btn-hover-empty:focus.active,
+#review_form #respond p.form-submit input[type="submit"].btn-hover-empty.focus.active {
+  background-color: transparent;
+  border-color: #3a4043;
+  color: #3a4043;
+}
+div.tempo-comments-wrapper div.comment-respond form.comment-form p.form-submit input[type="submit"] {
+  border-width: 2px;
+  border-style: solid;
+}
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt {
+  border: none;
+  font-size: 13px;
+  line-height: 28px;
+  margin: 5px;
+  padding: 11px 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #26ad60;
+  border-color: #26ad60;
+  color: #ffffff;
+}
+.woocommerce #respond input#submit:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button:hover,
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover,
+.woocommerce #respond input#submit:focus,
+.woocommerce a.button:focus,
+.woocommerce button.button:focus,
+.woocommerce input.button:focus,
+.woocommerce #respond input#submit.alt:focus,
+.woocommerce a.button.alt:focus,
+.woocommerce button.button.alt:focus,
+.woocommerce input.button.alt:focus,
+.woocommerce #respond input#submit.focus,
+.woocommerce a.button.focus,
+.woocommerce button.button.focus,
+.woocommerce input.button.focus,
+.woocommerce #respond input#submit.alt.focus,
+.woocommerce a.button.alt.focus,
+.woocommerce button.button.alt.focus,
+.woocommerce input.button.alt.focus,
+.woocommerce #respond input#submit:active,
+.woocommerce a.button:active,
+.woocommerce button.button:active,
+.woocommerce input.button:active,
+.woocommerce #respond input#submit.alt:active,
+.woocommerce a.button.alt:active,
+.woocommerce button.button.alt:active,
+.woocommerce input.button.alt:active,
+.woocommerce #respond input#submit.active,
+.woocommerce a.button.active,
+.woocommerce button.button.active,
+.woocommerce input.button.active,
+.woocommerce #respond input#submit.alt.active,
+.woocommerce a.button.alt.active,
+.woocommerce button.button.alt.active,
+.woocommerce input.button.alt.active {
+  background-color: #3a4043;
+  border-color: #3a4043;
+  color: #ffffff;
+}
+.woocommerce #respond input#submit:hover:focus,
+.woocommerce a.button:hover:focus,
+.woocommerce button.button:hover:focus,
+.woocommerce input.button:hover:focus,
+.woocommerce #respond input#submit.alt:hover:focus,
+.woocommerce a.button.alt:hover:focus,
+.woocommerce button.button.alt:hover:focus,
+.woocommerce input.button.alt:hover:focus,
+.woocommerce #respond input#submit:hover.focus,
+.woocommerce a.button:hover.focus,
+.woocommerce button.button:hover.focus,
+.woocommerce input.button:hover.focus,
+.woocommerce #respond input#submit.alt:hover.focus,
+.woocommerce a.button.alt:hover.focus,
+.woocommerce button.button.alt:hover.focus,
+.woocommerce input.button.alt:hover.focus,
+.woocommerce #respond input#submit:hover:active,
+.woocommerce a.button:hover:active,
+.woocommerce button.button:hover:active,
+.woocommerce input.button:hover:active,
+.woocommerce #respond input#submit.alt:hover:active,
+.woocommerce a.button.alt:hover:active,
+.woocommerce button.button.alt:hover:active,
+.woocommerce input.button.alt:hover:active,
+.woocommerce #respond input#submit:hover.active,
+.woocommerce a.button:hover.active,
+.woocommerce button.button:hover.active,
+.woocommerce input.button:hover.active,
+.woocommerce #respond input#submit.alt:hover.active,
+.woocommerce a.button.alt:hover.active,
+.woocommerce button.button.alt:hover.active,
+.woocommerce input.button.alt:hover.active,
+.woocommerce #respond input#submit:focus:active,
+.woocommerce a.button:focus:active,
+.woocommerce button.button:focus:active,
+.woocommerce input.button:focus:active,
+.woocommerce #respond input#submit.alt:focus:active,
+.woocommerce a.button.alt:focus:active,
+.woocommerce button.button.alt:focus:active,
+.woocommerce input.button.alt:focus:active,
+.woocommerce #respond input#submit:focus.active,
+.woocommerce a.button:focus.active,
+.woocommerce button.button:focus.active,
+.woocommerce input.button:focus.active,
+.woocommerce #respond input#submit.alt:focus.active,
+.woocommerce a.button.alt:focus.active,
+.woocommerce button.button.alt:focus.active,
+.woocommerce input.button.alt:focus.active,
+.woocommerce #respond input#submit.focus.active,
+.woocommerce a.button.focus.active,
+.woocommerce button.button.focus.active,
+.woocommerce input.button.focus.active,
+.woocommerce #respond input#submit.alt.focus.active,
+.woocommerce a.button.alt.focus.active,
+.woocommerce button.button.alt.focus.active,
+.woocommerce input.button.alt.focus.active {
+  background-color: #3a4043;
+  border-color: #3a4043;
+  color: #ffffff;
+}
+.woocommerce #respond input#submit.btn-empty,
+.woocommerce a.button.btn-empty,
+.woocommerce button.button.btn-empty,
+.woocommerce input.button.btn-empty,
+.woocommerce #respond input#submit.alt.btn-empty,
+.woocommerce a.button.alt.btn-empty,
+.woocommerce button.button.alt.btn-empty,
+.woocommerce input.button.alt.btn-empty {
+  color: #26ad60;
+}
+.woocommerce #respond input#submit.btn-empty:hover,
+.woocommerce a.button.btn-empty:hover,
+.woocommerce button.button.btn-empty:hover,
+.woocommerce input.button.btn-empty:hover,
+.woocommerce #respond input#submit.alt.btn-empty:hover,
+.woocommerce a.button.alt.btn-empty:hover,
+.woocommerce button.button.alt.btn-empty:hover,
+.woocommerce input.button.alt.btn-empty:hover,
+.woocommerce #respond input#submit.btn-empty:focus,
+.woocommerce a.button.btn-empty:focus,
+.woocommerce button.button.btn-empty:focus,
+.woocommerce input.button.btn-empty:focus,
+.woocommerce #respond input#submit.alt.btn-empty:focus,
+.woocommerce a.button.alt.btn-empty:focus,
+.woocommerce button.button.alt.btn-empty:focus,
+.woocommerce input.button.alt.btn-empty:focus,
+.woocommerce #respond input#submit.btn-empty.focus,
+.woocommerce a.button.btn-empty.focus,
+.woocommerce button.button.btn-empty.focus,
+.woocommerce input.button.btn-empty.focus,
+.woocommerce #respond input#submit.alt.btn-empty.focus,
+.woocommerce a.button.alt.btn-empty.focus,
+.woocommerce button.button.alt.btn-empty.focus,
+.woocommerce input.button.alt.btn-empty.focus,
+.woocommerce #respond input#submit.btn-empty:active,
+.woocommerce a.button.btn-empty:active,
+.woocommerce button.button.btn-empty:active,
+.woocommerce input.button.btn-empty:active,
+.woocommerce #respond input#submit.alt.btn-empty:active,
+.woocommerce a.button.alt.btn-empty:active,
+.woocommerce button.button.alt.btn-empty:active,
+.woocommerce input.button.alt.btn-empty:active,
+.woocommerce #respond input#submit.btn-empty.active,
+.woocommerce a.button.btn-empty.active,
+.woocommerce button.button.btn-empty.active,
+.woocommerce input.button.btn-empty.active,
+.woocommerce #respond input#submit.alt.btn-empty.active,
+.woocommerce a.button.alt.btn-empty.active,
+.woocommerce button.button.alt.btn-empty.active,
+.woocommerce input.button.alt.btn-empty.active {
+  background-color: #3a4043;
+  border-color: #3a4043;
+  color: #ffffff;
+}
+.woocommerce #respond input#submit.btn-empty:hover:focus,
+.woocommerce a.button.btn-empty:hover:focus,
+.woocommerce button.button.btn-empty:hover:focus,
+.woocommerce input.button.btn-empty:hover:focus,
+.woocommerce #respond input#submit.alt.btn-empty:hover:focus,
+.woocommerce a.button.alt.btn-empty:hover:focus,
+.woocommerce button.button.alt.btn-empty:hover:focus,
+.woocommerce input.button.alt.btn-empty:hover:focus,
+.woocommerce #respond input#submit.btn-empty:hover.focus,
+.woocommerce a.button.btn-empty:hover.focus,
+.woocommerce button.button.btn-empty:hover.focus,
+.woocommerce input.button.btn-empty:hover.focus,
+.woocommerce #respond input#submit.alt.btn-empty:hover.focus,
+.woocommerce a.button.alt.btn-empty:hover.focus,
+.woocommerce button.button.alt.btn-empty:hover.focus,
+.woocommerce input.button.alt.btn-empty:hover.focus,
+.woocommerce #respond input#submit.btn-empty:hover:active,
+.woocommerce a.button.btn-empty:hover:active,
+.woocommerce button.button.btn-empty:hover:active,
+.woocommerce input.button.btn-empty:hover:active,
+.woocommerce #respond input#submit.alt.btn-empty:hover:active,
+.woocommerce a.button.alt.btn-empty:hover:active,
+.woocommerce button.button.alt.btn-empty:hover:active,
+.woocommerce input.button.alt.btn-empty:hover:active,
+.woocommerce #respond input#submit.btn-empty:hover.active,
+.woocommerce a.button.btn-empty:hover.active,
+.woocommerce button.button.btn-empty:hover.active,
+.woocommerce input.button.btn-empty:hover.active,
+.woocommerce #respond input#submit.alt.btn-empty:hover.active,
+.woocommerce a.button.alt.btn-empty:hover.active,
+.woocommerce button.button.alt.btn-empty:hover.active,
+.woocommerce input.button.alt.btn-empty:hover.active,
+.woocommerce #respond input#submit.btn-empty:focus:active,
+.woocommerce a.button.btn-empty:focus:active,
+.woocommerce button.button.btn-empty:focus:active,
+.woocommerce input.button.btn-empty:focus:active,
+.woocommerce #respond input#submit.alt.btn-empty:focus:active,
+.woocommerce a.button.alt.btn-empty:focus:active,
+.woocommerce button.button.alt.btn-empty:focus:active,
+.woocommerce input.button.alt.btn-empty:focus:active,
+.woocommerce #respond input#submit.btn-empty:focus.active,
+.woocommerce a.button.btn-empty:focus.active,
+.woocommerce button.button.btn-empty:focus.active,
+.woocommerce input.button.btn-empty:focus.active,
+.woocommerce #respond input#submit.alt.btn-empty:focus.active,
+.woocommerce a.button.alt.btn-empty:focus.active,
+.woocommerce button.button.alt.btn-empty:focus.active,
+.woocommerce input.button.alt.btn-empty:focus.active,
+.woocommerce #respond input#submit.btn-empty.focus.active,
+.woocommerce a.button.btn-empty.focus.active,
+.woocommerce button.button.btn-empty.focus.active,
+.woocommerce input.button.btn-empty.focus.active,
+.woocommerce #respond input#submit.alt.btn-empty.focus.active,
+.woocommerce a.button.alt.btn-empty.focus.active,
+.woocommerce button.button.alt.btn-empty.focus.active,
+.woocommerce input.button.alt.btn-empty.focus.active {
+  background-color: #3a4043;
+  border-color: #3a4043;
+  color: #ffffff;
+}
+.woocommerce #respond input#submit.btn-hover-empty:hover,
+.woocommerce a.button.btn-hover-empty:hover,
+.woocommerce button.button.btn-hover-empty:hover,
+.woocommerce input.button.btn-hover-empty:hover,
+.woocommerce #respond input#submit.alt.btn-hover-empty:hover,
+.woocommerce a.button.alt.btn-hover-empty:hover,
+.woocommerce button.button.alt.btn-hover-empty:hover,
+.woocommerce input.button.alt.btn-hover-empty:hover,
+.woocommerce #respond input#submit.btn-hover-empty:focus,
+.woocommerce a.button.btn-hover-empty:focus,
+.woocommerce button.button.btn-hover-empty:focus,
+.woocommerce input.button.btn-hover-empty:focus,
+.woocommerce #respond input#submit.alt.btn-hover-empty:focus,
+.woocommerce a.button.alt.btn-hover-empty:focus,
+.woocommerce button.button.alt.btn-hover-empty:focus,
+.woocommerce input.button.alt.btn-hover-empty:focus,
+.woocommerce #respond input#submit.btn-hover-empty.focus,
+.woocommerce a.button.btn-hover-empty.focus,
+.woocommerce button.button.btn-hover-empty.focus,
+.woocommerce input.button.btn-hover-empty.focus,
+.woocommerce #respond input#submit.alt.btn-hover-empty.focus,
+.woocommerce a.button.alt.btn-hover-empty.focus,
+.woocommerce button.button.alt.btn-hover-empty.focus,
+.woocommerce input.button.alt.btn-hover-empty.focus,
+.woocommerce #respond input#submit.btn-hover-empty:active,
+.woocommerce a.button.btn-hover-empty:active,
+.woocommerce button.button.btn-hover-empty:active,
+.woocommerce input.button.btn-hover-empty:active,
+.woocommerce #respond input#submit.alt.btn-hover-empty:active,
+.woocommerce a.button.alt.btn-hover-empty:active,
+.woocommerce button.button.alt.btn-hover-empty:active,
+.woocommerce input.button.alt.btn-hover-empty:active,
+.woocommerce #respond input#submit.btn-hover-empty.active,
+.woocommerce a.button.btn-hover-empty.active,
+.woocommerce button.button.btn-hover-empty.active,
+.woocommerce input.button.btn-hover-empty.active,
+.woocommerce #respond input#submit.alt.btn-hover-empty.active,
+.woocommerce a.button.alt.btn-hover-empty.active,
+.woocommerce button.button.alt.btn-hover-empty.active,
+.woocommerce input.button.alt.btn-hover-empty.active {
+  background-color: transparent;
+  border-color: #3a4043;
+  color: #3a4043;
+}
+.woocommerce #respond input#submit.btn-hover-empty:hover:focus,
+.woocommerce a.button.btn-hover-empty:hover:focus,
+.woocommerce button.button.btn-hover-empty:hover:focus,
+.woocommerce input.button.btn-hover-empty:hover:focus,
+.woocommerce #respond input#submit.alt.btn-hover-empty:hover:focus,
+.woocommerce a.button.alt.btn-hover-empty:hover:focus,
+.woocommerce button.button.alt.btn-hover-empty:hover:focus,
+.woocommerce input.button.alt.btn-hover-empty:hover:focus,
+.woocommerce #respond input#submit.btn-hover-empty:hover.focus,
+.woocommerce a.button.btn-hover-empty:hover.focus,
+.woocommerce button.button.btn-hover-empty:hover.focus,
+.woocommerce input.button.btn-hover-empty:hover.focus,
+.woocommerce #respond input#submit.alt.btn-hover-empty:hover.focus,
+.woocommerce a.button.alt.btn-hover-empty:hover.focus,
+.woocommerce button.button.alt.btn-hover-empty:hover.focus,
+.woocommerce input.button.alt.btn-hover-empty:hover.focus,
+.woocommerce #respond input#submit.btn-hover-empty:hover:active,
+.woocommerce a.button.btn-hover-empty:hover:active,
+.woocommerce button.button.btn-hover-empty:hover:active,
+.woocommerce input.button.btn-hover-empty:hover:active,
+.woocommerce #respond input#submit.alt.btn-hover-empty:hover:active,
+.woocommerce a.button.alt.btn-hover-empty:hover:active,
+.woocommerce button.button.alt.btn-hover-empty:hover:active,
+.woocommerce input.button.alt.btn-hover-empty:hover:active,
+.woocommerce #respond input#submit.btn-hover-empty:hover.active,
+.woocommerce a.button.btn-hover-empty:hover.active,
+.woocommerce button.button.btn-hover-empty:hover.active,
+.woocommerce input.button.btn-hover-empty:hover.active,
+.woocommerce #respond input#submit.alt.btn-hover-empty:hover.active,
+.woocommerce a.button.alt.btn-hover-empty:hover.active,
+.woocommerce button.button.alt.btn-hover-empty:hover.active,
+.woocommerce input.button.alt.btn-hover-empty:hover.active,
+.woocommerce #respond input#submit.btn-hover-empty:focus:active,
+.woocommerce a.button.btn-hover-empty:focus:active,
+.woocommerce button.button.btn-hover-empty:focus:active,
+.woocommerce input.button.btn-hover-empty:focus:active,
+.woocommerce #respond input#submit.alt.btn-hover-empty:focus:active,
+.woocommerce a.button.alt.btn-hover-empty:focus:active,
+.woocommerce button.button.alt.btn-hover-empty:focus:active,
+.woocommerce input.button.alt.btn-hover-empty:focus:active,
+.woocommerce #respond input#submit.btn-hover-empty:focus.active,
+.woocommerce a.button.btn-hover-empty:focus.active,
+.woocommerce button.button.btn-hover-empty:focus.active,
+.woocommerce input.button.btn-hover-empty:focus.active,
+.woocommerce #respond input#submit.alt.btn-hover-empty:focus.active,
+.woocommerce a.button.alt.btn-hover-empty:focus.active,
+.woocommerce button.button.alt.btn-hover-empty:focus.active,
+.woocommerce input.button.alt.btn-hover-empty:focus.active,
+.woocommerce #respond input#submit.btn-hover-empty.focus.active,
+.woocommerce a.button.btn-hover-empty.focus.active,
+.woocommerce button.button.btn-hover-empty.focus.active,
+.woocommerce input.button.btn-hover-empty.focus.active,
+.woocommerce #respond input#submit.alt.btn-hover-empty.focus.active,
+.woocommerce a.button.alt.btn-hover-empty.focus.active,
+.woocommerce button.button.alt.btn-hover-empty.focus.active,
+.woocommerce input.button.alt.btn-hover-empty.focus.active {
+  background-color: transparent;
+  border-color: #3a4043;
+  color: #3a4043;
+}
+select,
+textarea,
+input:not([type=submit]):not([type=file]):not([type=button]):not([type=reset]):not([type="image"]),
+input[type="tel"],
+input[type="url"],
+input[type="text"],
+input[type="email"],
+input[type="phone"],
+input[type="number"],
+input[type="password"],
+.select2-container--default .select2-selection--single {
+  border-color: #e4e2e2;
+  color: #666;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 28px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+select:focus,
+textarea:focus,
+input:not([type=submit]):not([type=file]):not([type=button]):not([type=reset]):not([type="image"]):focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="phone"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+.select2-container--default .select2-selection--single:focus,
+select:active,
+textarea:active,
+input:not([type=submit]):not([type=file]):not([type=button]):not([type=reset]):not([type="image"]):active,
+input[type="tel"]:active,
+input[type="url"]:active,
+input[type="text"]:active,
+input[type="email"]:active,
+input[type="phone"]:active,
+input[type="number"]:active,
+input[type="password"]:active,
+.select2-container--default .select2-selection--single:active {
+  border: 2px solid #26ad60;
+  color: #272b2d;
+}
+select {
+  background-image: url(../img/select-arrow.png);
+  background-position: center right;
+  background-repeat: no-repeat;
+  height: 50px;
+  padding-right: 33px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+label {
+  color: #1d1d1d;
+}
+label input:not([type=submit]):not([type=file]):not([type=button]):not([type=reset]):not([type="image"])[type="checkbox"] {
+  margin: 6px 10px;
+}
+label input:not([type=submit]):not([type=file]):not([type=button]):not([type=reset]):not([type="image"])[type="checkbox"]:first-child {
+  float: left;
+}
+label input:not([type=submit]):not([type=file]):not([type=button]):not([type=reset]):not([type="image"])[type="radio"]:first-child {
+  float: left;
+}
+label input:not([type=submit]):not([type=file]):not([type=button]):not([type=reset]):not([type="image"])[type="checkbox"]:first-child + * {
+  display: block;
+  padding-left: 42px;
+  line-height: 28px;
+}
+label input:not([type=submit]):not([type=file]):not([type=button]):not([type=reset]):not([type="image"])[type="radio"]:first-child + * {
+  display: block;
+  line-height: 28px;
+}
+label:before {
+  content: '';
+  clear: both;
+  display: table;
+}
+textarea {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 28px;
+}
+form.wpcf7-form {
+  position: relative;
+}
+form.wpcf7-form .row div[class^="col-"] span.wpcf7-form-control-wrap,
+form.wpcf7-form .row div[class*="col-"] span.wpcf7-form-control-wrap {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+@media (max-width: 1680px) {
+  form.wpcf7-form .row div[class^="col-"] span.wpcf7-form-control-wrap,
+  form.wpcf7-form .row div[class*="col-"] span.wpcf7-form-control-wrap {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 1440px) {
+  form.wpcf7-form .row div[class^="col-"] span.wpcf7-form-control-wrap,
+  form.wpcf7-form .row div[class*="col-"] span.wpcf7-form-control-wrap {
+    margin-bottom: 36px;
+  }
+}
+@media (max-width: 1380px) {
+  form.wpcf7-form .row div[class^="col-"] span.wpcf7-form-control-wrap,
+  form.wpcf7-form .row div[class*="col-"] span.wpcf7-form-control-wrap {
+    margin-bottom: 32px;
+  }
+}
+@media (max-width: 1280px) {
+  form.wpcf7-form .row div[class^="col-"] span.wpcf7-form-control-wrap,
+  form.wpcf7-form .row div[class*="col-"] span.wpcf7-form-control-wrap {
+    margin-bottom: 28px;
+  }
+}
+@media (max-width: 1199px) {
+  form.wpcf7-form .row div[class^="col-"] span.wpcf7-form-control-wrap,
+  form.wpcf7-form .row div[class*="col-"] span.wpcf7-form-control-wrap {
+    margin-bottom: 28px;
+  }
+}
+@media (max-width: 1024px) {
+  form.wpcf7-form .row div[class^="col-"] span.wpcf7-form-control-wrap,
+  form.wpcf7-form .row div[class*="col-"] span.wpcf7-form-control-wrap {
+    margin-bottom: 28px;
+  }
+}
+@media (max-width: 991px) {
+  form.wpcf7-form .row div[class^="col-"] span.wpcf7-form-control-wrap,
+  form.wpcf7-form .row div[class*="col-"] span.wpcf7-form-control-wrap {
+    margin-bottom: 28px;
+  }
+}
+@media (max-width: 767px) {
+  form.wpcf7-form .row div[class^="col-"] span.wpcf7-form-control-wrap,
+  form.wpcf7-form .row div[class*="col-"] span.wpcf7-form-control-wrap {
+    margin-bottom: 26px;
+  }
+}
+form.wpcf7-form .row div[class^="col-"] span.wpcf7-form-control-wrap select,
+form.wpcf7-form .row div[class*="col-"] span.wpcf7-form-control-wrap select,
+form.wpcf7-form .row div[class^="col-"] span.wpcf7-form-control-wrap textarea,
+form.wpcf7-form .row div[class*="col-"] span.wpcf7-form-control-wrap textarea,
+form.wpcf7-form .row div[class^="col-"] span.wpcf7-form-control-wrap input:not([type=submit]):not([type=file]):not([type=button]):not([type=reset]):not([type="image"]),
+form.wpcf7-form .row div[class*="col-"] span.wpcf7-form-control-wrap input:not([type=submit]):not([type=file]):not([type=button]):not([type=reset]):not([type="image"]),
+form.wpcf7-form .row div[class^="col-"] span.wpcf7-form-control-wrap input[type="tel"],
+form.wpcf7-form .row div[class*="col-"] span.wpcf7-form-control-wrap input[type="tel"],
+form.wpcf7-form .row div[class^="col-"] span.wpcf7-form-control-wrap input[type="url"],
+form.wpcf7-form .row div[class*="col-"] span.wpcf7-form-control-wrap input[type="url"],
+form.wpcf7-form .row div[class^="col-"] span.wpcf7-form-control-wrap input[type="text"],
+form.wpcf7-form .row div[class*="col-"] span.wpcf7-form-control-wrap input[type="text"],
+form.wpcf7-form .row div[class^="col-"] span.wpcf7-form-control-wrap input[type="email"],
+form.wpcf7-form .row div[class*="col-"] span.wpcf7-form-control-wrap input[type="email"],
+form.wpcf7-form .row div[class^="col-"] span.wpcf7-form-control-wrap input[type="phone"],
+form.wpcf7-form .row div[class*="col-"] span.wpcf7-form-control-wrap input[type="phone"],
+form.wpcf7-form .row div[class^="col-"] span.wpcf7-form-control-wrap input[type="number"],
+form.wpcf7-form .row div[class*="col-"] span.wpcf7-form-control-wrap input[type="number"],
+form.wpcf7-form .row div[class^="col-"] span.wpcf7-form-control-wrap input[type="password"],
+form.wpcf7-form .row div[class*="col-"] span.wpcf7-form-control-wrap input[type="password"] {
+  margin-bottom: 5px;
+}
+form.wpcf7-form .row div[class^="col-"] select,
+form.wpcf7-form .row div[class*="col-"] select,
+form.wpcf7-form .row div[class^="col-"] textarea,
+form.wpcf7-form .row div[class*="col-"] textarea,
+form.wpcf7-form .row div[class^="col-"] input:not([type=submit]):not([type=file]):not([type=button]):not([type=reset]):not([type="image"]),
+form.wpcf7-form .row div[class*="col-"] input:not([type=submit]):not([type=file]):not([type=button]):not([type=reset]):not([type="image"]),
+form.wpcf7-form .row div[class^="col-"] input[type="tel"],
+form.wpcf7-form .row div[class*="col-"] input[type="tel"],
+form.wpcf7-form .row div[class^="col-"] input[type="url"],
+form.wpcf7-form .row div[class*="col-"] input[type="url"],
+form.wpcf7-form .row div[class^="col-"] input[type="text"],
+form.wpcf7-form .row div[class*="col-"] input[type="text"],
+form.wpcf7-form .row div[class^="col-"] input[type="email"],
+form.wpcf7-form .row div[class*="col-"] input[type="email"],
+form.wpcf7-form .row div[class^="col-"] input[type="phone"],
+form.wpcf7-form .row div[class*="col-"] input[type="phone"],
+form.wpcf7-form .row div[class^="col-"] input[type="number"],
+form.wpcf7-form .row div[class*="col-"] input[type="number"],
+form.wpcf7-form .row div[class^="col-"] input[type="password"],
+form.wpcf7-form .row div[class*="col-"] input[type="password"] {
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+@media (max-width: 1680px) {
+  form.wpcf7-form .row div[class^="col-"] select,
+  form.wpcf7-form .row div[class*="col-"] select,
+  form.wpcf7-form .row div[class^="col-"] textarea,
+  form.wpcf7-form .row div[class*="col-"] textarea,
+  form.wpcf7-form .row div[class^="col-"] input:not([type=submit]):not([type=file]):not([type=button]):not([type=reset]):not([type="image"]),
+  form.wpcf7-form .row div[class*="col-"] input:not([type=submit]):not([type=file]):not([type=button]):not([type=reset]):not([type="image"]),
+  form.wpcf7-form .row div[class^="col-"] input[type="tel"],
+  form.wpcf7-form .row div[class*="col-"] input[type="tel"],
+  form.wpcf7-form .row div[class^="col-"] input[type="url"],
+  form.wpcf7-form .row div[class*="col-"] input[type="url"],
+  form.wpcf7-form .row div[class^="col-"] input[type="text"],
+  form.wpcf7-form .row div[class*="col-"] input[type="text"],
+  form.wpcf7-form .row div[class^="col-"] input[type="email"],
+  form.wpcf7-form .row div[class*="col-"] input[type="email"],
+  form.wpcf7-form .row div[class^="col-"] input[type="phone"],
+  form.wpcf7-form .row div[class*="col-"] input[type="phone"],
+  form.wpcf7-form .row div[class^="col-"] input[type="number"],
+  form.wpcf7-form .row div[class*="col-"] input[type="number"],
+  form.wpcf7-form .row div[class^="col-"] input[type="password"],
+  form.wpcf7-form .row div[class*="col-"] input[type="password"] {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 1440px) {
+  form.wpcf7-form .row div[class^="col-"] select,
+  form.wpcf7-form .row div[class*="col-"] select,
+  form.wpcf7-form .row div[class^="col-"] textarea,
+  form.wpcf7-form .row div[class*="col-"] textarea,
+  form.wpcf7-form .row div[class^="col-"] input:not([type=submit]):not([type=file]):not([type=button]):not([type=reset]):not([type="image"]),
+  form.wpcf7-form .row div[class*="col-"] input:not([type=submit]):not([type=file]):not([type=button]):not([type=reset]):not([type="image"]),
+  form.wpcf7-form .row div[class^="col-"] input[type="tel"],
+  form.wpcf7-form .row div[class*="col-"] input[type="tel"],
+  form.wpcf7-form .row div[class^="col-"] input[type="url"],
+  form.wpcf7-form .row div[class*="col-"] input[type="url"],
+  form.wpcf7-form .row div[class^="col-"] input[type="text"],
+  form.wpcf7-form .row div[class*="col-"] input[type="text"],
+  form.wpcf7-form .row div[class^="col-"] input[type="email"],
+  form.wpcf7-form .row div[class*="col-"] input[type="email"],
+  form.wpcf7-form .row div[class^="col-"] input[type="phone"],
+  form.wpcf7-form .row div[class*="col-"] input[type="phone"],
+  form.wpcf7-form .row div[class^="col-"] input[type="number"],
+  form.wpcf7-form .row div[class*="col-"] input[type="number"],
+  form.wpcf7-form .row div[class^="col-"] input[type="password"],
+  form.wpcf7-form .row div[class*="col-"] input[type="password"] {
+    margin-bottom: 36px;
+  }
+}
+@media (max-width: 1380px) {
+  form.wpcf7-form .row div[class^="col-"] select,
+  form.wpcf7-form .row div[class*="col-"] select,
+  form.wpcf7-form .row div[class^="col-"] textarea,
+  form.wpcf7-form .row div[class*="col-"] textarea,
+  form.wpcf7-form .row div[class^="col-"] input:not([type=submit]):not([type=file]):not([type=button]):not([type=reset]):not([type="image"]),
+  form.wpcf7-form .row div[class*="col-"] input:not([type=submit]):not([type=file]):not([type=button]):not([type=reset]):not([type="image"]),
+  form.wpcf7-form .row div[class^="col-"] input[type="tel"],
+  form.wpcf7-form .row div[class*="col-"] input[type="tel"],
+  form.wpcf7-form .row div[class^="col-"] input[type="url"],
+  form.wpcf7-form .row div[class*="col-"] input[type="url"],
+  form.wpcf7-form .row div[class^="col-"] input[type="text"],
+  form.wpcf7-form .row div[class*="col-"] input[type="text"],
+  form.wpcf7-form .row div[class^="col-"] input[type="email"],
+  form.wpcf7-form .row div[class*="col-"] input[type="email"],
+  form.wpcf7-form .row div[class^="col-"] input[type="phone"],
+  form.wpcf7-form .row div[class*="col-"] input[type="phone"],
+  form.wpcf7-form .row div[class^="col-"] input[type="number"],
+  form.wpcf7-form .row div[class*="col-"] input[type="number"],
+  form.wpcf7-form .row div[class^="col-"] input[type="password"],
+  form.wpcf7-form .row div[class*="col-"] input[type="password"] {
+    margin-bottom: 32px;
+  }
+}
+@media (max-width: 1280px) {
+  form.wpcf7-form .row div[class^="col-"] select,
+  form.wpcf7-form .row div[class*="col-"] select,
+  form.wpcf7-form .row div[class^="col-"] textarea,
+  form.wpcf7-form .row div[class*="col-"] textarea,
+  form.wpcf7-form .row div[class^="col-"] input:not([type=submit]):not([type=file]):not([type=button]):not([type=reset]):not([type="image"]),
+  form.wpcf7-form .row div[class*="col-"] input:not([type=submit]):not([type=file]):not([type=button]):not([type=reset]):not([type="image"]),
+  form.wpcf7-form .row div[class^="col-"] input[type="tel"],
+  form.wpcf7-form .row div[class*="col-"] input[type="tel"],
+  form.wpcf7-form .row div[class^="col-"] input[type="url"],
+  form.wpcf7-form .row div[class*="col-"] input[type="url"],
+  form.wpcf7-form .row div[class^="col-"] input[type="text"],
+  form.wpcf7-form .row div[class*="col-"] input[type="text"],
+  form.wpcf7-form .row div[class^="col-"] input[type="email"],
+  form.wpcf7-form .row div[class*="col-"] input[type="email"],
+  form.wpcf7-form .row div[class^="col-"] input[type="phone"],
+  form.wpcf7-form .row div[class*="col-"] input[type="phone"],
+  form.wpcf7-form .row div[class^="col-"] input[type="number"],
+  form.wpcf7-form .row div[class*="col-"] input[type="number"],
+  form.wpcf7-form .row div[class^="col-"] input[type="password"],
+  form.wpcf7-form .row div[class*="col-"] input[type="password"] {
+    margin-bottom: 28px;
+  }
+}
+@media (max-width: 1199px) {
+  form.wpcf7-form .row div[class^="col-"] select,
+  form.wpcf7-form .row div[class*="col-"] select,
+  form.wpcf7-form .row div[class^="col-"] textarea,
+  form.wpcf7-form .row div[class*="col-"] textarea,
+  form.wpcf7-form .row div[class^="col-"] input:not([type=submit]):not([type=file]):not([type=button]):not([type=reset]):not([type="image"]),
+  form.wpcf7-form .row div[class*="col-"] input:not([type=submit]):not([type=file]):not([type=button]):not([type=reset]):not([type="image"]),
+  form.wpcf7-form .row div[class^="col-"] input[type="tel"],
+  form.wpcf7-form .row div[class*="col-"] input[type="tel"],
+  form.wpcf7-form .row div[class^="col-"] input[type="url"],
+  form.wpcf7-form .row div[class*="col-"] input[type="url"],
+  form.wpcf7-form .row div[class^="col-"] input[type="text"],
+  form.wpcf7-form .row div[class*="col-"] input[type="text"],
+  form.wpcf7-form .row div[class^="col-"] input[type="email"],
+  form.wpcf7-form .row div[class*="col-"] input[type="email"],
+  form.wpcf7-form .row div[class^="col-"] input[type="phone"],
+  form.wpcf7-form .row div[class*="col-"] input[type="phone"],
+  form.wpcf7-form .row div[class^="col-"] input[type="number"],
+  form.wpcf7-form .row div[class*="col-"] input[type="number"],
+  form.wpcf7-form .row div[class^="col-"] input[type="password"],
+  form.wpcf7-form .row div[class*="col-"] input[type="password"] {
+    margin-bottom: 28px;
+  }
+}
+@media (max-width: 1024px) {
+  form.wpcf7-form .row div[class^="col-"] select,
+  form.wpcf7-form .row div[class*="col-"] select,
+  form.wpcf7-form .row div[class^="col-"] textarea,
+  form.wpcf7-form .row div[class*="col-"] textarea,
+  form.wpcf7-form .row div[class^="col-"] input:not([type=submit]):not([type=file]):not([type=button]):not([type=reset]):not([type="image"]),
+  form.wpcf7-form .row div[class*="col-"] input:not([type=submit]):not([type=file]):not([type=button]):not([type=reset]):not([type="image"]),
+  form.wpcf7-form .row div[class^="col-"] input[type="tel"],
+  form.wpcf7-form .row div[class*="col-"] input[type="tel"],
+  form.wpcf7-form .row div[class^="col-"] input[type="url"],
+  form.wpcf7-form .row div[class*="col-"] input[type="url"],
+  form.wpcf7-form .row div[class^="col-"] input[type="text"],
+  form.wpcf7-form .row div[class*="col-"] input[type="text"],
+  form.wpcf7-form .row div[class^="col-"] input[type="email"],
+  form.wpcf7-form .row div[class*="col-"] input[type="email"],
+  form.wpcf7-form .row div[class^="col-"] input[type="phone"],
+  form.wpcf7-form .row div[class*="col-"] input[type="phone"],
+  form.wpcf7-form .row div[class^="col-"] input[type="number"],
+  form.wpcf7-form .row div[class*="col-"] input[type="number"],
+  form.wpcf7-form .row div[class^="col-"] input[type="password"],
+  form.wpcf7-form .row div[class*="col-"] input[type="password"] {
+    margin-bottom: 28px;
+  }
+}
+@media (max-width: 991px) {
+  form.wpcf7-form .row div[class^="col-"] select,
+  form.wpcf7-form .row div[class*="col-"] select,
+  form.wpcf7-form .row div[class^="col-"] textarea,
+  form.wpcf7-form .row div[class*="col-"] textarea,
+  form.wpcf7-form .row div[class^="col-"] input:not([type=submit]):not([type=file]):not([type=button]):not([type=reset]):not([type="image"]),
+  form.wpcf7-form .row div[class*="col-"] input:not([type=submit]):not([type=file]):not([type=button]):not([type=reset]):not([type="image"]),
+  form.wpcf7-form .row div[class^="col-"] input[type="tel"],
+  form.wpcf7-form .row div[class*="col-"] input[type="tel"],
+  form.wpcf7-form .row div[class^="col-"] input[type="url"],
+  form.wpcf7-form .row div[class*="col-"] input[type="url"],
+  form.wpcf7-form .row div[class^="col-"] input[type="text"],
+  form.wpcf7-form .row div[class*="col-"] input[type="text"],
+  form.wpcf7-form .row div[class^="col-"] input[type="email"],
+  form.wpcf7-form .row div[class*="col-"] input[type="email"],
+  form.wpcf7-form .row div[class^="col-"] input[type="phone"],
+  form.wpcf7-form .row div[class*="col-"] input[type="phone"],
+  form.wpcf7-form .row div[class^="col-"] input[type="number"],
+  form.wpcf7-form .row div[class*="col-"] input[type="number"],
+  form.wpcf7-form .row div[class^="col-"] input[type="password"],
+  form.wpcf7-form .row div[class*="col-"] input[type="password"] {
+    margin-bottom: 28px;
+  }
+}
+@media (max-width: 767px) {
+  form.wpcf7-form .row div[class^="col-"] select,
+  form.wpcf7-form .row div[class*="col-"] select,
+  form.wpcf7-form .row div[class^="col-"] textarea,
+  form.wpcf7-form .row div[class*="col-"] textarea,
+  form.wpcf7-form .row div[class^="col-"] input:not([type=submit]):not([type=file]):not([type=button]):not([type=reset]):not([type="image"]),
+  form.wpcf7-form .row div[class*="col-"] input:not([type=submit]):not([type=file]):not([type=button]):not([type=reset]):not([type="image"]),
+  form.wpcf7-form .row div[class^="col-"] input[type="tel"],
+  form.wpcf7-form .row div[class*="col-"] input[type="tel"],
+  form.wpcf7-form .row div[class^="col-"] input[type="url"],
+  form.wpcf7-form .row div[class*="col-"] input[type="url"],
+  form.wpcf7-form .row div[class^="col-"] input[type="text"],
+  form.wpcf7-form .row div[class*="col-"] input[type="text"],
+  form.wpcf7-form .row div[class^="col-"] input[type="email"],
+  form.wpcf7-form .row div[class*="col-"] input[type="email"],
+  form.wpcf7-form .row div[class^="col-"] input[type="phone"],
+  form.wpcf7-form .row div[class*="col-"] input[type="phone"],
+  form.wpcf7-form .row div[class^="col-"] input[type="number"],
+  form.wpcf7-form .row div[class*="col-"] input[type="number"],
+  form.wpcf7-form .row div[class^="col-"] input[type="password"],
+  form.wpcf7-form .row div[class*="col-"] input[type="password"] {
+    margin-bottom: 26px;
+  }
+}
+form.wpcf7-form p,
+form.wpcf7-form label {
+  width: 100%;
+}
+form.wpcf7-form p select,
+form.wpcf7-form label select,
+form.wpcf7-form p textarea,
+form.wpcf7-form label textarea,
+form.wpcf7-form p input:not([type=submit]):not([type=file]):not([type=button]):not([type=reset]):not([type="image"]),
+form.wpcf7-form label input:not([type=submit]):not([type=file]):not([type=button]):not([type=reset]):not([type="image"]),
+form.wpcf7-form p input[type="tel"],
+form.wpcf7-form label input[type="tel"],
+form.wpcf7-form p input[type="url"],
+form.wpcf7-form label input[type="url"],
+form.wpcf7-form p input[type="text"],
+form.wpcf7-form label input[type="text"],
+form.wpcf7-form p input[type="email"],
+form.wpcf7-form label input[type="email"],
+form.wpcf7-form p input[type="phone"],
+form.wpcf7-form label input[type="phone"],
+form.wpcf7-form p input[type="number"],
+form.wpcf7-form label input[type="number"],
+form.wpcf7-form p input[type="password"],
+form.wpcf7-form label input[type="password"] {
+  width: 100%;
+}
+form.wpcf7-form p input[type="submit"],
+form.wpcf7-form label input[type="submit"],
+form.wpcf7-form p input[type="button"],
+form.wpcf7-form label input[type="button"],
+form.wpcf7-form p input[type="reset"],
+form.wpcf7-form label input[type="reset"],
+form.wpcf7-form p button,
+form.wpcf7-form label button,
+form.wpcf7-form p .button,
+form.wpcf7-form label .button,
+form.wpcf7-form p .tempo-btn,
+form.wpcf7-form label .tempo-btn,
+form.wpcf7-form p .btn,
+form.wpcf7-form label .btn {
+  margin: 0px;
+}
+form.wpcf7-form span.wpcf7-form-control-wrap {
+  position: relative;
+  display: block;
+}
+form.wpcf7-form span.wpcf7-not-valid-tip {
+  background: #ff0000;
+  color: #ffffff;
+  position: absolute;
+  margin-top: -8px;
+  left: 8px;
+  padding: 2px 10px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: bold;
+  z-index: 1;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.3);
+}
+form.wpcf7-form span.wpcf7-not-valid-tip:before {
+  border: 5px solid transparent;
+  border-bottom-color: #ff0000;
+  content: "";
+  position: absolute;
+  height: 0;
+  left: 16px;
+  top: -10px;
+  width: 1px;
+  z-index: 2;
+}
+body div.wpcf7-response-output {
+  background: #3a4043;
+  margin-top: -5px;
+  border: none;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: bold;
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  z-index: 1;
+  margin-bottom: 0px;
+  -webkit-box-shadow: 0px 2px 8px 1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 2px 8px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 8px 1px rgba(0, 0, 0, 0.3);
+}
+body div.wpcf7-response-output:before {
+  border: 8px solid transparent;
+  border-bottom-color: #3a4043;
+  content: "";
+  position: absolute;
+  height: 0;
+  left: -webkit-calc( 50% - 8px );
+  left: -moz-calc( 50% - 8px );
+  left: calc( 50% - 8px );
+  top: -16px;
+  width: 1px;
+  z-index: 2;
+}
+body div.wpcf7-response-output.wpcf7-validation-errors {
+  background: #f0ad4e;
+  color: #ffffff;
+}
+body div.wpcf7-response-output.wpcf7-validation-errors:before {
+  border-bottom-color: #f0ad4e;
+}
+body div.wpcf7-response-output.wpcf7-mail-sent-ok {
+  background: #5cb854;
+  color: #ffffff;
+}
+body div.wpcf7-response-output.wpcf7-mail-sent-ok:before {
+  border-bottom-color: #5cb854;
+}
+form.post-password-form label {
+  float: left;
+}
+@media (max-width: 480px) {
+  form.post-password-form label input {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  form.post-password-form label {
+    float: none;
+    width: 100%;
+  }
+}
+form.post-password-form input[type="submit"] {
+  margin: 37px 0px 0px 10px;
+}
+@media (max-width: 1380px) {
+  form.post-password-form input[type="submit"] {
+    margin: 34px 0px 0px 10px;
+  }
+}
+@media (max-width: 1024px) {
+  form.post-password-form input[type="submit"] {
+    margin: 30px 0px 0px 10px;
+  }
+}
+@media (max-width: 767px) {
+  form.post-password-form input[type="submit"] {
+    margin: 26px 0px 0px 10px;
+  }
+}
+@media (max-width: 480px) {
+  form.post-password-form input[type="submit"] {
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+  }
+}
+form p:first-child {
+  margin-top: 0px;
+}
+form p:last-child {
+  margin-bottom: 0px;
+}
+img.wpcf7-form-control.wpcf7-captchac {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}

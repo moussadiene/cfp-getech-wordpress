@@ -1,0 +1,158 @@
+version 0.0.30 ( October 14, 2018 )
+-------------------------------------------------------
+- Bug fixes and Small design Improvements
+
+version 0.0.29 ( October 13, 2018 )
+-------------------------------------------------------
+- Fixed Price Bug
+
+version 0.0.28 ( October 13, 2018 )
+-------------------------------------------------------
+- Design Improvements
+- WooCommerce Update ( pro )
+- WooCommerce new Features ( pro )
+
+version 0.0.27 ( June 26, 2018 )
+-------------------------------------------------------
+- Security Improvements / escaped data base on Theme Sniffer Plugin
+
+version 0.0.26 ( June 6, 2018 )
+-------------------------------------------------------
+- Small Code Improvements
+
+version 0.0.25 ( May 10, 2018 )
+-------------------------------------------------------
+- Small UX/UI Improvements
+- Small design Improvements
+
+version 0.0.24 ( April 18, 2018 )
+-------------------------------------------------------
+- Customize Improvements
+- Theme FAQ Improvements
+
+version 0.0.23 ( March 26, 2018 )
+-------------------------------------------------------
+- Code Quality Improvements
+- Update WooCommerce Templates
+
+version 0.0.22 ( February 26, 2018 )
+-------------------------------------------------------
+- Update Fontello Icon fonts
+- Footer Social Improvements
+- Add footer Social items: GitLab and Reddit
+
+Version 0.0.21 ( February 3, 2018 )
+________________________________________
+
+- Fixed Customizer Bug
+
+Version 0.0.20 ( February 2, 2018 )
+________________________________________
+
+- Added Option to enable / disable Collapsing Submenu for mobile devices
+
+Version 0.0.19 ( October 10, 2017 )
+________________________________________
+
+- Fixed design appearance for SELECT (Form Element)
+
+Version 0.0.18 ( October 2, 2017 )
+________________________________________
+
+- Fixed PHP Version bug compatibility
+
+Version 0.0.17 ( October 2, 2017 )
+________________________________________
+
+- Header Tools Design Improvements
+- Menu and Submenu space Improvements
+- Fix bug for menu items with submenu
+
+Version 0.0.16 ( September 26, 2017 )
+________________________________________
+
+- Small Design and Code Improvements
+- Sync between Zeon Plugin and Tempo parent Theme
+
+Version 0.0.15 ( August 31, 2017 )
+________________________________________
+
+- Typography Improvements ( additional css rules for next screens width: 1680, 1440, 1380, 1280, 1199 and 1024  )
+- Header and Footer Sidebars and Widgets Sizes Improvements for Different Screen Sizes
+- Spellcheck Improvements
+- Small Design and Code Improvements
+- Small UI/UX Improvements
+
+Version 0.0.14 ( August 2, 2017 )
+________________________________________
+
+- Improvements for Header IMAGE size ( srcset )
+- Improvements for Responsive Post and Page Featured Images size using <PICTURE>, <SOURCE> and srcset="..." attribute
+- Improvements for Responsive Gallery Images size using <PICTURE>, <SOURCE> and srcset="..." attribute
+- Fixed display mode for input type="image"
+- Small UI/UX improvements
+
+Version 0.0.12 ( May 31, 2017 )
+________________________________________
+
+- Improvements for Header IMAGE size
+- Responsive Gallery Images using srcset="..." attribute
+- Hidden label for widgets Categories and Archives ( display as dropdown )
+- Display Hierarchical Categories ( post meta )
+
+Version 0.0.11 ( May 17, 2017 )
+________________________________________
+
+- fix the default config for the Header Front Page Sidebar
+
+Version 0.0.10 ( May 17, 2017 )
+________________________________________
+
+- Improvements for Responsive Header Image using srcset="..." attribute
+- Improvements for Responsive Featured Image using srcset="..." attribute
+- fix Headline as Text if Headline URL is null
+- fix Description as Text if Description URL is null
+
+Version 0.0.9 ( May 11, 2017 )
+________________________________________
+
+- Responsive Header Image using srcset="..." attribute
+- Responsive Header Image Scaling and Spacing Improvements
+
+Version 0.0.8 ( April 5, 2017 )
+________________________________________
+
+- fixed bug with blog header image
+
+Version 0.0.7 ( April 5, 2017 )
+________________________________________
+
+- auto hyphens settings ( general, header, headings and content )
+
+Version 0.0.6 ( March 23, 2017 )
+________________________________________
+
+- multiple responsive improvements
+- added small php improvements
+- fixed header tools item: Icon position
+
+Version 0.0.5 ( March 1, 2017 )
+________________________________________
+
+- Added Custom Color options ( Appearance > Customize > Colors )
+- Added Custom Headline Max Width options ( Appearance > Customize > Header Elements > Headline )
+- Fixed Show Categories on Single Post Header
+- Small css fix for content after menu ( special cases )
+- Header Tools Customizer fixes and Css fixes
+- added special class: gardener-highlight, space-extra-large, space-large, space, space-small, space-extra-small ( responsive ), content-wrapper-large, content-wrapper-small, content-wrapper-custom
+- small css improvements for ordered and unordered lists,
+- small css improvements for widget titles ( responsivity )
+
+Version 0.0.4 ( February 28, 2017 )
+________________________________________
+
+- gardener_user_contact() function and functionality - removed
+- using 'continue' outside of a loop - fixed. Research in others files. Found and fixed 3 matches.
+- ordered multiple placeholders ( use %1$1s instead of %s )
+- removed demo content like address, time and program from header.
+- escaping options in files: site-identity-after.php, append.php. The options used with tempo_option::get( '.....' ) are automatically escaped.

@@ -1,0 +1,637 @@
+hr.tempo-meta-delimiter {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 1px;
+  margin: 60px auto 35px auto;
+}
+@media (max-width: 1680px) {
+  hr.tempo-meta-delimiter {
+    margin: 56px auto 34px auto;
+  }
+}
+@media (max-width: 1440px) {
+  hr.tempo-meta-delimiter {
+    margin: 50px auto 33px auto;
+  }
+}
+@media (max-width: 1380px) {
+  hr.tempo-meta-delimiter {
+    margin: 48px auto 32px auto;
+  }
+}
+@media (max-width: 1280px) {
+  hr.tempo-meta-delimiter {
+    margin: 45px auto 31px auto;
+  }
+}
+@media (max-width: 1199px) {
+  hr.tempo-meta-delimiter {
+    margin: 42px auto 30px auto;
+  }
+}
+@media (max-width: 1024px) {
+  hr.tempo-meta-delimiter {
+    margin: 36px auto 28px auto;
+  }
+}
+header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single {
+  display: inline-block;
+  position: relative;
+  margin-top: 100px;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  -webkit-box-shadow: 0px 10px 12px -3px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 10px 12px -3px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 10px 12px -3px rgba(0, 0, 0, 0.4);
+}
+@media (max-width: 1680px) {
+  header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single {
+    margin-top: 86px;
+  }
+}
+@media (max-width: 1440px) {
+  header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single {
+    margin-top: 78px;
+  }
+}
+@media (max-width: 1380px) {
+  header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single {
+    margin-top: 74px;
+  }
+}
+@media (max-width: 1280px) {
+  header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single {
+    margin-top: 69px;
+  }
+}
+@media (max-width: 1199px) {
+  header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single {
+    margin-top: 65px;
+  }
+}
+@media (max-width: 1024px) {
+  header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single {
+    margin-top: 55px;
+  }
+}
+@media (max-width: 991px) {
+  header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single {
+    margin-top: 53px;
+  }
+}
+@media (max-width: 767px) {
+  header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single {
+    margin-top: 42px;
+  }
+}
+@media (max-width: 540px) {
+  header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single {
+    margin-top: 38px;
+  }
+}
+@media (max-width: 480px) {
+  header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single {
+    margin-top: 34px;
+  }
+}
+header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single span.category-wrapper {
+  display: block;
+  overflow: hidden;
+}
+header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single span.category-wrapper:before {
+  background-color: rgba(255, 255, 255, 0.2);
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 2px;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single span.category-wrapper:after {
+  background-color: rgba(0, 0, 0, 0.2);
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  left: 0px;
+  bottom: 0px;
+}
+header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single span.category-wrapper a {
+  background: #3a4043;
+  border-left: 12px solid #26ad60;
+  color: rgba(255, 255, 255, 0.8);
+  display: block;
+  position: relative;
+  overflow: hidden;
+  padding: 20px 30px;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0px;
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single span.category-wrapper a:hover {
+  color: #ffffff;
+}
+@media (max-width: 1380px) {
+  header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single span.category-wrapper a {
+    padding: 18px 28px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+@media (max-width: 1199px) {
+  header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single span.category-wrapper a {
+    padding: 16px 24px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+@media (max-width: 767px) {
+  header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single span.category-wrapper a {
+    padding: 14px 22px;
+    font-size: 13px;
+    line-height: 16px;
+  }
+}
+header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single span.categories-wrapper {
+  background: #3a4043;
+  color: rgba(255, 255, 255, 0.8);
+  display: block;
+  position: relative;
+  overflow: hidden;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single span.categories-wrapper:before {
+  background-color: rgba(255, 255, 255, 0.2);
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 2px;
+  left: 0px;
+  top: 0px;
+}
+header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single span.categories-wrapper:after {
+  background-color: rgba(0, 0, 0, 0.2);
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  left: 0px;
+  bottom: 0px;
+}
+header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single span.categories-wrapper span {
+  background: #3a4043;
+  display: inline-block;
+  padding: 20px 30px;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+@media (max-width: 1380px) {
+  header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single span.categories-wrapper span {
+    padding: 18px 28px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+@media (max-width: 1199px) {
+  header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single span.categories-wrapper span {
+    padding: 16px 24px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+@media (max-width: 767px) {
+  header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single span.categories-wrapper span {
+    padding: 14px 22px;
+    font-size: 13px;
+    line-height: 16px;
+  }
+}
+header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single span.categories-wrapper i {
+  background: #26ad60;
+  float: left;
+  padding: 20px;
+  font-size: 20px;
+  line-height: 22px;
+}
+@media (max-width: 1380px) {
+  header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single span.categories-wrapper i {
+    padding: 18px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+@media (max-width: 1199px) {
+  header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single span.categories-wrapper i {
+    padding: 16px;
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+@media (max-width: 767px) {
+  header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single span.categories-wrapper i {
+    padding: 14px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single ul {
+  display: none;
+  position: absolute;
+  z-index: 100;
+  left: 0px;
+  min-width: 100%;
+  width: auto;
+  margin: -1px 0px 0px 0px;
+  padding: 0px;
+  list-style: none;
+  -webkit-box-shadow: 0px 8px 12px -3px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 8px 12px -3px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 8px 12px -3px rgba(0, 0, 0, 0.4);
+}
+header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single ul li {
+  display: block;
+}
+header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single ul li a {
+  background: #26ad60;
+  color: rgba(255, 255, 255, 0.8);
+  display: block;
+  position: relative;
+  margin: 0px;
+  width: 100%;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: 2px solid rgba(255, 255, 255, 0.2);
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single ul li a:before {
+  content: '';
+  background: rgba(0, 0, 0, 0);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+}
+header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single ul li a:hover {
+  background: #26ad60;
+  color: #ffffff;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single ul li:hover a:before {
+  background: rgba(0, 0, 0, 0.05);
+}
+header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single ul li:last-child a {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single:hover {
+  -webkit-box-shadow: 0px 6px 10px -4px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 6px 10px -4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 6px 10px -4px rgba(0, 0, 0, 0.5);
+}
+header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single:hover span.categories-wrapper {
+  color: #ffffff;
+}
+header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single:hover ul {
+  display: block;
+}
+header.tempo-header div.tempo-header-partial.tempo-portfolio div.tempo-categories.single:hover span.category-wrapper a {
+  color: #ffffff;
+}
+header.tempo-header div.tempo-header-partial.tempo-portfolio div.gardener-layout-left div.gardener-header div.tempo-categories.single span.categories-wrapper i {
+  float: right;
+}
+header.tempo-header div.tempo-header-partial.tempo-portfolio div.gardener-layout-left div.gardener-header div.tempo-categories.single ul {
+  right: 0px;
+}
+h1.tempo-title.single {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+@media (max-width: 1680px) {
+  h1.tempo-title.single {
+    margin: 0px 0px 30px 0px;
+    padding: 0px 0px 40px 0px;
+  }
+}
+@media (max-width: 1440px) {
+  h1.tempo-title.single {
+    margin: 0px 0px 36px 0px;
+    padding: 0px 0px 28px 0px;
+  }
+}
+@media (max-width: 1380px) {
+  h1.tempo-title.single {
+    margin: 0px 0px 32px 0px;
+    padding: 0px 0px 26px 0px;
+  }
+}
+@media (max-width: 1280px) {
+  h1.tempo-title.single {
+    margin: 0px 0px 28px 0px;
+    padding: 0px 0px 24px 0px;
+  }
+}
+@media (max-width: 767px) {
+  h1.tempo-title.single {
+    margin: 0px 0px 26px 0px;
+    padding: 0px 0px 24px 0px;
+  }
+}
+article.tempo-article.classic div.tempo-meta-activity {
+  display: inline-block;
+  position: relative;
+  padding-left: 16px;
+  margin-left: 15px;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: bold;
+}
+article.tempo-article.classic div.tempo-meta-activity:before {
+  background: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  content: '';
+  width: 1px;
+  height: 70%;
+  top: 15%;
+  left: 0px;
+}
+article.tempo-article.classic div.tempo-meta-activity a {
+  color: #3a4043;
+}
+article.tempo-article.classic div.tempo-meta-activity a:hover {
+  color: #26ad60;
+}
+article.tempo-article.classic div.tempo-meta-activity i {
+  margin-right: 8px;
+}
+article.tempo-article.classic div.tempo-meta-activity span {
+  text-transform: uppercase;
+}
+article.tempo-article.classic div.tempo-meta-activity span.activity-item {
+  color: #26ad60;
+  display: inline-block;
+  position: relative;
+  padding-left: 16px;
+  margin-left: 15px;
+  font-size: 13px;
+  line-height: 20px;
+}
+article.tempo-article.classic div.tempo-meta-activity span.activity-item:before {
+  background: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  content: '';
+  width: 1px;
+  height: 70%;
+  top: 15%;
+  left: 0px;
+}
+article.tempo-article.classic div.tempo-author {
+  border-bottom: none;
+  margin-top: 35px;
+  margin-bottom: 0px;
+  text-align: center;
+  padding: 60px 0px 0px 0px;
+}
+@media (max-width: 1680px) {
+  article.tempo-article.classic div.tempo-author {
+    padding: 56px 0px 0px 0px;
+  }
+}
+@media (max-width: 1440px) {
+  article.tempo-article.classic div.tempo-author {
+    padding: 50px 0px 0px 0px;
+  }
+}
+@media (max-width: 1380px) {
+  article.tempo-article.classic div.tempo-author {
+    padding: 48px 0px 0px 0px;
+  }
+}
+@media (max-width: 1280px) {
+  article.tempo-article.classic div.tempo-author {
+    padding: 45px 0px 0px 0px;
+  }
+}
+@media (max-width: 1199px) {
+  article.tempo-article.classic div.tempo-author {
+    padding: 42px 0px 0px 0px;
+  }
+}
+@media (max-width: 1024px) {
+  article.tempo-article.classic div.tempo-author {
+    padding: 36px 0px 0px 0px;
+  }
+}
+@media (max-width: 991px) {
+  article.tempo-article.classic div.tempo-author {
+    padding: 35px 0px 0px 0px;
+  }
+}
+@media (max-width: 767px) {
+  article.tempo-article.classic div.tempo-author {
+    margin-top: 35px;
+    padding: 34px 0px 0px 0px;
+  }
+}
+@media (max-width: 540px) {
+  article.tempo-article.classic div.tempo-author {
+    padding: 32px 0px 0px 0px;
+  }
+}
+@media (max-width: 480px) {
+  article.tempo-article.classic div.tempo-author {
+    padding: 31px 0px 0px 0px;
+  }
+}
+article.tempo-article.classic div.tempo-author div.tempo-author-avatar {
+  margin: 0px 50px 0px 0px;
+  height: auto;
+}
+article.tempo-article.classic div.tempo-author div.tempo-author-avatar img {
+  margin: 0px;
+  -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.15);
+}
+@media (max-width: 780px) {
+  article.tempo-article.classic div.tempo-author div.tempo-author-avatar {
+    float: none;
+    margin: 0px auto 32px auto;
+    display: block;
+    text-align: center;
+  }
+}
+article.tempo-article.classic div.tempo-author h4.tempo-author-name {
+  font-size: 24px;
+  line-height: 38px;
+  font-weight: bold;
+}
+article.tempo-article.classic div.tempo-author div.tempo-author-wrapper {
+  display: inline-block;
+}
+article.tempo-article.classic div.tempo-author div.author-details {
+  float: left;
+  text-align: left;
+}
+@media (max-width: 780px) {
+  article.tempo-article.classic div.tempo-author div.author-details {
+    float: none;
+    text-align: center;
+    display: block;
+  }
+  article.tempo-article.classic div.tempo-author div.author-details h4.tempo-author-name {
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+article.tempo-article.classic div.tempo-author a.author-website-url {
+  display: block;
+  color: #26ad60;
+  border: none;
+}
+article.tempo-article.classic div.tempo-author a.author-website-url:hover {
+  color: #000000;
+}
+article.tempo-article.classic div.tempo-author p.tempo-author-info {
+  color: #595959;
+  font-size: 16px;
+  max-width: 650px;
+  margin: 0px auto;
+}
+article.tempo-article.classic div.tempo-author hr.author-delimiter {
+  background-color: #26ad60;
+  max-width: 220px;
+  height: 3px;
+  margin: 60px auto 45px auto;
+}
+@media (max-width: 1680px) {
+  article.tempo-article.classic div.tempo-author hr.author-delimiter {
+    padding: 56px auto 43px auto;
+  }
+}
+@media (max-width: 1440px) {
+  article.tempo-article.classic div.tempo-author hr.author-delimiter {
+    padding: 50px auto 39px auto;
+  }
+}
+@media (max-width: 1380px) {
+  article.tempo-article.classic div.tempo-author hr.author-delimiter {
+    padding: 48px auto 37px auto;
+  }
+}
+@media (max-width: 1280px) {
+  article.tempo-article.classic div.tempo-author hr.author-delimiter {
+    padding: 45px auto 34px auto;
+  }
+}
+@media (max-width: 1199px) {
+  article.tempo-article.classic div.tempo-author hr.author-delimiter {
+    padding: 42px auto 33px auto;
+  }
+}
+@media (max-width: 1024px) {
+  article.tempo-article.classic div.tempo-author hr.author-delimiter {
+    padding: 36px auto 32px auto;
+  }
+}
+@media (max-width: 991px) {
+  article.tempo-article.classic div.tempo-author hr.author-delimiter {
+    padding: 35px auto 32px auto;
+  }
+}
+@media (max-width: 767px) {
+  article.tempo-article.classic div.tempo-author hr.author-delimiter {
+    padding: 32px auto;
+  }
+}
+article.tempo-article.classic div.tempo-hentry + div.tempo-author {
+  margin-top: 60px;
+}
+@media (max-width: 1680px) {
+  article.tempo-article.classic div.tempo-hentry + div.tempo-author {
+    margin-top: 56px;
+  }
+}
+@media (max-width: 1440px) {
+  article.tempo-article.classic div.tempo-hentry + div.tempo-author {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 1380px) {
+  article.tempo-article.classic div.tempo-hentry + div.tempo-author {
+    margin-top: 48px;
+  }
+}
+@media (max-width: 1280px) {
+  article.tempo-article.classic div.tempo-hentry + div.tempo-author {
+    margin-top: 45px;
+  }
+}
+@media (max-width: 1199px) {
+  article.tempo-article.classic div.tempo-hentry + div.tempo-author {
+    margin-top: 42px;
+  }
+}
+@media (max-width: 1024px) {
+  article.tempo-article.classic div.tempo-hentry + div.tempo-author {
+    margin-top: 36px;
+  }
+}
+@media (max-width: 991px) {
+  article.tempo-article.classic div.tempo-hentry + div.tempo-author {
+    margin-top: 35px;
+  }
+}
+@media (max-width: 767px) {
+  article.tempo-article.classic div.tempo-hentry + div.tempo-author {
+    margin-top: 32px;
+  }
+}
+article.tempo-article.classic div.tempo-meta.bottom div.tempo-terms {
+  text-align: center;
+  margin: 0px -4px;
+}
+article.tempo-article.classic div.tempo-meta.bottom div.tempo-terms a {
+  background-color: #f6f8fc;
+  border-color: #f6f8fc;
+  color: #3a4043;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 4px 20px;
+}
+article.tempo-article.classic div.tempo-meta.bottom div.tempo-terms a:hover {
+  background-color: #3a4043;
+  border-color: #3a4043;
+  color: #ffffff;
+}
